@@ -1,0 +1,19 @@
+// 1. Colors
+// ==========================================================================
+
+$primary-color:              #8c9954 !default;
+$primary-color-light-1:      #acbc69;
+$primary-color-light-5:      #c5d776;
+$secondary-color:            #504e4e;
+$color-lightgray:            #a1a1a1;
+$color-darkgray:             #504e4e;
+
+// 1. Typography
+// ==========================================================================
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { font-size: 2rem;}
+h2 { font-size: 1.8rem;}
+h3 { font-size: 1.6rem;}
+h4 { font-size: 1.4rem;}
+h5 { font-size: 1.2rem;}
+h6 { font-size: 1rem; }

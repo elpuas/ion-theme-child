@@ -1,0 +1,35 @@
+header.bar-header {
+
+    background-color: $primary-color ;
+
+}
+
+// Home Mobile Navigation
+
+.home-nav {
+  .col {
+    text-align: center;
+  }
+  a {
+    color:#a1a1a1;
+    span {
+        margin-top: 5px;
+        margin-bottom: 25px;
+        display: block;
+      }
+    }
+  .nav-ico {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    background-image: url('../img/home-nav-sprite.png');
+    text-indent: -9999px;
+  }
+  .ico1 {}
+  .ico2 { background-position: -55px; }
+  .ico3 { background-position: -110px; }
+  .ico4 { background-position: -165px;}
+  .ico5 { background-position: -220px;}
+  .ico6 { background-position: -275px;}
+}

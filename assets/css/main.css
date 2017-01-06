@@ -1,0 +1,123 @@
+/* line 13, sass/partials/_variables.scss */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-weight: inherit;
+}
+
+/* line 14, sass/partials/_variables.scss */
+h1 {
+  font-size: 2rem;
+}
+
+/* line 15, sass/partials/_variables.scss */
+h2 {
+  font-size: 1.8rem;
+}
+
+/* line 16, sass/partials/_variables.scss */
+h3 {
+  font-size: 1.6rem;
+}
+
+/* line 17, sass/partials/_variables.scss */
+h4 {
+  font-size: 1.4rem;
+}
+
+/* line 18, sass/partials/_variables.scss */
+h5 {
+  font-size: 1.2rem;
+}
+
+/* line 19, sass/partials/_variables.scss */
+h6 {
+  font-size: 1rem;
+}
+
+/* line 4, sass/partials/_woocommerce.scss */
+body.woocommerce main.site-main {
+  text-align: center;
+}
+/* line 7, sass/partials/_woocommerce.scss */
+body.woocommerce nav.woocommerce-breadcrumb {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  height: 10px;
+}
+/* line 13, sass/partials/_woocommerce.scss */
+body.woocommerce h1.page-title {
+  color: #8c9954;
+  font-size: 2em;
+}
+/* line 17, sass/partials/_woocommerce.scss */
+body.woocommerce p.woocommerce-result-count {
+  display: none;
+}
+/* line 24, sass/partials/_woocommerce.scss */
+body.woocommerce ul.products li.product a {
+  text-align: center;
+}
+/* line 27, sass/partials/_woocommerce.scss */
+body.woocommerce ul.products li.product a img {
+  box-shadow: 0 0 3px 0px #a1a1a1;
+  border-bottom: solid 10px #8c9954;
+}
+/* line 32, sass/partials/_woocommerce.scss */
+body.woocommerce ul.products li.product a.btn {
+  background-color: #8c9954;
+  color: white;
+  font-weight: 400;
+  margin-top: 0;
+  box-shadow: 0 0 3px 0px #a1a1a1;
+  letter-spacing: normal;
+  padding: 0 1rem;
+}
+
+/* line 1, sass/partials/_appderma.scss */
+header.bar-header {
+  background-color: #8c9954;
+}
+
+/* line 10, sass/partials/_appderma.scss */
+.home-nav .col {
+  text-align: center;
+}
+/* line 13, sass/partials/_appderma.scss */
+.home-nav a {
+  color: #a1a1a1;
+}
+/* line 15, sass/partials/_appderma.scss */
+.home-nav a span {
+  margin-top: 5px;
+  margin-bottom: 25px;
+  display: block;
+}
+/* line 21, sass/partials/_appderma.scss */
+.home-nav .nav-ico {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+  background-image: url("../img/home-nav-sprite.png");
+  text-indent: -9999px;
+}
+/* line 30, sass/partials/_appderma.scss */
+.home-nav .ico2 {
+  background-position: -55px;
+}
+/* line 31, sass/partials/_appderma.scss */
+.home-nav .ico3 {
+  background-position: -110px;
+}
+/* line 32, sass/partials/_appderma.scss */
+.home-nav .ico4 {
+  background-position: -165px;
+}
+/* line 33, sass/partials/_appderma.scss */
+.home-nav .ico5 {
+  background-position: -220px;
+}
+/* line 34, sass/partials/_appderma.scss */
+.home-nav .ico6 {
+  background-position: -275px;
+}
