@@ -33,3 +33,15 @@ header.bar-header {
   .ico5 { background-position: -220px;}
   .ico6 { background-position: -275px;}
 }
+
+// Footer Navigation
+
+.menu-footer-nav-container {
+  ul.tabs {
+    li {
+      width: 33%;
+      padding-top: 5px !important;
+    }
+  }
+
+}

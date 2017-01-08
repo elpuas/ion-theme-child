@@ -121,3 +121,9 @@ header.bar-header {
 .home-nav .ico6 {
   background-position: -275px;
 }
+
+/* line 41, sass/partials/_appderma.scss */
+.menu-footer-nav-container ul.tabs li {
+  width: 33%;
+  padding-top: 5px !important;
+}
