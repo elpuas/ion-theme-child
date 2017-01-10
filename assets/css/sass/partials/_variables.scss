@@ -10,10 +10,5 @@ $color-darkgray:             #504e4e;
 
 // 1. Typography
 // ==========================================================================
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-h1 { font-size: 2rem;}
-h2 { font-size: 1.8rem;}
-h3 { font-size: 1.6rem;}
-h4 { font-size: 1.4rem;}
-h5 { font-size: 1.2rem;}
-h6 { font-size: 1rem; }
+
+$primary-font:             'Raleway', sans-serif;
