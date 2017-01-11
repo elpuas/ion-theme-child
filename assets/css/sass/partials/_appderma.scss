@@ -1,5 +1,5 @@
-// Comon
-p, a { font-family: $primary-font; }
+// Common
+p, a, li, select { font-family: $primary-font; }
 p { font-size: 1rem;}
 h1, h2, h3, h4, h5, h6 { font-family: $primary-font; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -16,10 +16,25 @@ header.bar.bar-header {
     background: transparent;
     border-top: solid 1px $color-darkgray;
     border-bottom: solid 1px $color-darkgray;
+    .button-back-button {
+      i.icon.ion-ios-arrow-back {
+        color: $color-darkgray !important;
+      }
+    }
+    img.logo-responsive {
+    max-width: 220px;
+    margin-right: 15px;
+  }
 
 }
 button#nav-left-open::before {
    color: $color-darkgray;
+}
+
+// Page title
+
+h1.page-title {
+    display: none;
 }
 
 // Home Mobile Navigation
@@ -52,9 +67,16 @@ button#nav-left-open::before {
   .ico6 { background-position: -275px;}
 }
 
+// Slider
+
+section.swiper-container {
+  box-shadow: 0 0 3px 0px $color-lightgray;
+  margin-bottom: 25px;
+}
+
 // Footer Navigation
 
-.menu-footer-nav-container {
+#footer-menu {
   ul.tabs {
     li {
       width: 33%;

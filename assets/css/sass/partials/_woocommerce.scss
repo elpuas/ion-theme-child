@@ -25,6 +25,15 @@ body.woocommerce {
       padding-bottom: 0;
     }
   }
+  .woocommerce-ordering{
+    select {
+      position: inherit;
+      background: transparent;
+      color: $color-darkgray;
+      padding-bottom: 5px;
+      border-bottom: solid 1px $color-lightgray;
+    }
+  }
   ul.products {
     li.product {
       border: 0 !important;
@@ -55,4 +64,34 @@ body.woocommerce {
       }
     }
   }
+}
+// Woocommerce Cart Icon
+a.cart-contents {
+    text-align: right;
+    padding-right: 0;
+    margin-top: 5px;
+}
+.cart-contents:before {
+    font-family:Ionicons;
+    content: "\f370";
+    font-size:20px;
+    margin-top:10px;
+    font-style:normal;
+    font-weight:400;
+    padding-right:0;
+    vertical-align: bottom;
+    color: $color-darkgray;
+}
+.cart-contents:hover {
+    text-decoration: none;
+}
+.cart-contents-count {
+    color: #fff;
+    background-color: #2ecc71;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 1px 6px;
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
 }
