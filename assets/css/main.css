@@ -106,6 +106,34 @@ a.cart-contents {
   vertical-align: top;
 }
 
+/* line 5, sass/partials/_conditional-form.scss */
+article .entry-content h3 {
+  color: #8c9954 !important;
+  text-align: center;
+}
+/* line 9, sass/partials/_conditional-form.scss */
+article .entry-content p {
+  color: #a1a1a1;
+  text-align: center;
+}
+/* line 13, sass/partials/_conditional-form.scss */
+article .entry-content img.step-one-active {
+  max-width: 60% !important;
+  margin: 0 auto;
+}
+/* line 17, sass/partials/_conditional-form.scss */
+article .entry-content .col {
+  text-align: center;
+}
+/* line 19, sass/partials/_conditional-form.scss */
+article .entry-content .col a.button-default {
+  background-color: #8c9954;
+  box-shadow: 0 0 3px 0px #a1a1a1;
+  color: white;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
 /* line 2, sass/partials/_appderma.scss */
 p, a, li, select {
   font-family: "Raleway", sans-serif;

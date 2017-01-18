@@ -1,0 +1,28 @@
+// Step One
+
+article {
+  .entry-content {
+    h3 {
+      color: $primary-color !important;
+      text-align: center;
+    }
+    p {
+      color: $color-lightgray;
+      text-align: center;
+    }
+    img.step-one-active {
+        max-width: 60% !important;
+        margin: 0 auto;
+    }
+    .col {
+      text-align: center;
+      a.button-default {
+        background-color: $primary-color;
+        box-shadow: 0 0 3px 0px $color-lightgray;
+        color: white;
+        letter-spacing: 1px;
+        width: 100%;
+      }
+    }
+  }
+}
