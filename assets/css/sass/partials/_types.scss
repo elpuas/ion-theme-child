@@ -1,0 +1,51 @@
+ // Input
+
+
+select.js-wpv-filter-trigger {
+      width: 100%;
+      height: 35px;
+      border: none;
+      border-bottom: solid 1px;
+      margin-bottom: 25px;
+      background-color: transparent !important;
+
+  }
+ button.button-default {
+   background-color: $primary-color;
+   color: white;
+   font-weight: 400;
+   margin-top: 25px;
+   box-shadow: 0 0 3px 0px $color-lightgray;
+   letter-spacing: normal;
+   padding: 0 1rem;
+   width: 100%;
+ }
+
+ // Output
+
+ ul.js-wpv-loop {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   li {
+     text-align: center;
+     width: 45%;
+     float: left;
+     margin-left: 3.575%;
+     min-height: 280px;
+     img {
+       box-shadow: 0 0 3px 0px $color-lightgray;
+       border: solid 1px rgba(161, 161, 161, 0.32);
+       border-bottom: solid 10px $primary-color;
+     }
+     a {
+       text-decoration: none;
+       color: $primary-color;
+       font-size: 16px;
+     }
+     p {
+       color: $color-darkgray;
+    }
+
+   }
+ }

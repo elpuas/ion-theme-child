@@ -77,10 +77,26 @@ section.swiper-container {
 // Footer Navigation
 
 #footer-menu {
+
   ul.tabs {
+    background-color: transparent !important;
+    padding: 0;
     li {
-      width: 33%;
+      width: 34%;
       padding-top: 5px !important;
+      margin: 0 !important;
+      a{
+        i.icon { color: rgba(255, 255, 255, 0.75) !important; }
+      }
+    }
+    .menu-item-46 {
+      background: $primary-color !important;
+    }
+    .menu-item-47 {
+      background: #acbc69 !important;
+    }
+    .menu-item-50 {
+      background: #c5d776 !important;
     }
   }
 
