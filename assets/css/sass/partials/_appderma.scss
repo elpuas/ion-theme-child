@@ -31,6 +31,15 @@ button#nav-left-open::before {
    color: $color-darkgray;
 }
 
+// Logo
+  .logo-header {
+    width: 220px;
+    text-align: center;
+    img {
+      width: 50%;
+    }
+  }
+
 // Page title
 
 h1.page-title {

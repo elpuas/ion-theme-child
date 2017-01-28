@@ -107,6 +107,16 @@ a.cart-contents {
   vertical-align: top;
 }
 
+/* line 102, sass/partials/_woocommerce.scss */
+img.the-brands {
+  border: 1px solid #a1a1a1;
+  padding: 10px;
+  background-color: #8c9954;
+  border-radius: 4px;
+  box-shadow: 0 0 3px 0px #a1a1a1;
+  width: 100% !important;
+}
+
 /* line 5, sass/partials/_conditional-form.scss */
 article .entry-content h3 {
   color: #8c9954 !important;
@@ -259,26 +269,36 @@ button#nav-left-open::before {
   color: #504e4e;
 }
 
-/* line 36, sass/partials/_appderma.scss */
+/* line 35, sass/partials/_appderma.scss */
+.logo-header {
+  width: 220px;
+  text-align: center;
+}
+/* line 38, sass/partials/_appderma.scss */
+.logo-header img {
+  width: 50%;
+}
+
+/* line 45, sass/partials/_appderma.scss */
 h1.page-title {
   display: none;
 }
 
-/* line 43, sass/partials/_appderma.scss */
+/* line 52, sass/partials/_appderma.scss */
 .home-nav .col {
   text-align: center;
 }
-/* line 46, sass/partials/_appderma.scss */
+/* line 55, sass/partials/_appderma.scss */
 .home-nav a {
   color: #a1a1a1;
 }
-/* line 48, sass/partials/_appderma.scss */
+/* line 57, sass/partials/_appderma.scss */
 .home-nav a span {
   margin-top: 5px;
   margin-bottom: 25px;
   display: block;
 }
-/* line 54, sass/partials/_appderma.scss */
+/* line 63, sass/partials/_appderma.scss */
 .home-nav .nav-ico {
   width: 50px;
   height: 50px;
@@ -287,57 +307,57 @@ h1.page-title {
   background-image: url("../img/home-nav-sprite.png");
   text-indent: -9999px;
 }
-/* line 63, sass/partials/_appderma.scss */
+/* line 72, sass/partials/_appderma.scss */
 .home-nav .ico2 {
   background-position: -55px;
 }
-/* line 64, sass/partials/_appderma.scss */
+/* line 73, sass/partials/_appderma.scss */
 .home-nav .ico3 {
   background-position: -110px;
 }
-/* line 65, sass/partials/_appderma.scss */
+/* line 74, sass/partials/_appderma.scss */
 .home-nav .ico4 {
   background-position: -165px;
 }
-/* line 66, sass/partials/_appderma.scss */
+/* line 75, sass/partials/_appderma.scss */
 .home-nav .ico5 {
   background-position: -220px;
 }
-/* line 67, sass/partials/_appderma.scss */
+/* line 76, sass/partials/_appderma.scss */
 .home-nav .ico6 {
   background-position: -275px;
 }
 
-/* line 72, sass/partials/_appderma.scss */
+/* line 81, sass/partials/_appderma.scss */
 section.swiper-container {
   box-shadow: 0 0 3px 0px #a1a1a1;
   margin-bottom: 25px;
 }
 
-/* line 81, sass/partials/_appderma.scss */
+/* line 90, sass/partials/_appderma.scss */
 #footer-menu ul.tabs {
   background-color: transparent !important;
   padding: 0;
 }
-/* line 84, sass/partials/_appderma.scss */
+/* line 93, sass/partials/_appderma.scss */
 #footer-menu ul.tabs li {
   width: 34%;
   padding-top: 5px !important;
   margin: 0 !important;
 }
-/* line 89, sass/partials/_appderma.scss */
+/* line 98, sass/partials/_appderma.scss */
 #footer-menu ul.tabs li a i.icon {
   color: rgba(255, 255, 255, 0.75) !important;
 }
-/* line 92, sass/partials/_appderma.scss */
+/* line 101, sass/partials/_appderma.scss */
 #footer-menu ul.tabs .menu-item-46 {
   background: #8c9954 !important;
 }
-/* line 95, sass/partials/_appderma.scss */
+/* line 104, sass/partials/_appderma.scss */
 #footer-menu ul.tabs .menu-item-47 {
   background: #acbc69 !important;
 }
-/* line 98, sass/partials/_appderma.scss */
+/* line 107, sass/partials/_appderma.scss */
 #footer-menu ul.tabs .menu-item-50 {
   background: #c5d776 !important;
 }
