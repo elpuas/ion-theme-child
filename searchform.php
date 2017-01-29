@@ -8,7 +8,7 @@
 
 <form method="get" id="searchform" class="searchform list" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search">
 	<label for="s" class="item item-input">
-		<input type="search" class="form-control" name="s" value="<?php echo esc_attr( get_search_query() ); ?>" id="s" placeholder="<?php echo esc_attr_x( 'Buscar &hellip;', 'placeholder', 'appp_ion' ); ?>" />
+		<input type="search" class="form-control" name="s" value="<?php echo esc_attr( get_search_query() ); ?>" id="s" placeholder="<?php echo esc_attr_x( 'Search &hellip;', 'placeholder', 'appp_ion' ); ?>" />
 	</label>
 
 	<input type="submit" class="button button-primary submit" id="searchsubmit" value="<?php echo esc_attr_x( 'Search', 'submit button', 'appp_ion' ); ?>" />
