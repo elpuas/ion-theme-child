@@ -21,10 +21,6 @@ header.bar.bar-header {
         color: $color-darkgray !important;
       }
     }
-    img.logo-responsive {
-    max-width: 220px;
-    margin-right: 15px;
-  }
 
 }
 button#nav-left-open::before {
@@ -33,10 +29,10 @@ button#nav-left-open::before {
 
 // Logo
   .logo-header {
-    width: 220px;
+    width: 220px !important;
     text-align: center;
     img {
-      width: 50%;
+      width: 50% !important;
     }
   }
 

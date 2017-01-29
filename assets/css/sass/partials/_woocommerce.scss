@@ -107,3 +107,122 @@ img.the-brands {
   box-shadow: 0 0 3px 0px $color-lightgray;
   width: 100% !important;
 }
+
+// Woocommerce Products By Brand
+
+.woocommerce {
+  ul.products {
+    margin: 0;
+    padding: 0;
+    li.product {
+      text-align: center;
+      width: 45%;
+      float: left;
+      margin-left: 3.575%;
+      min-height: 280px;
+      img {
+        box-shadow: 0 0 3px 0px $color-lightgray;
+        border: solid 1px rgba(161, 161, 161, 0.32);
+        border-bottom: solid 10px $primary-color;
+      }
+      a {
+        text-decoration: none;
+        color: $primary-color;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+// Woocommerce My Account
+
+nav.woocommerce-MyAccount-navigation {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      width: 100%;
+      text-align: center;
+      background: $primary-color;
+      box-shadow: 0 0 3px 0px $color-lightgray;
+      border: 1px solid $color-lightgray;
+      border-radius: 4px;
+      margin-bottom: 10px;
+      padding: 10px 0;
+      a {
+        display: block;
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+}
+
+// Woocommerce Edit Account
+
+form.woocommerce-EditAccountForm {
+  p label {
+    text-align: left;
+  }
+  fieldset {
+    margin-top: 25px;
+    legend {
+      text-align: center;
+    }
+  }
+  input.woocommerce-Button {
+    margin-top: 10px;
+  }
+}
+
+// Woocommerce Facturacion Form
+
+.woocommerce-MyAccount-content {
+  form {
+    p {
+      label {
+        text-align: left;
+      }
+    }
+  }
+}
+
+// Body Manipulation
+
+body.woocommerce-edit-address {
+  .woocommerce {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* optional */
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    .woocommerce-MyAccount-navigation {
+      -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+    width: 100%;
+    margin-top: 25px;
+    }
+    .woocommerce-MyAccount-content {
+    -webkit-box-ordinal-group: 1;
+   -moz-box-ordinal-group: 1;
+   -ms-flex-order: 1;
+   -webkit-order: 1;
+   order: 1;
+   }
+  }
+}
