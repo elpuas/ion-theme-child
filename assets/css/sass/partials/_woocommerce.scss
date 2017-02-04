@@ -226,3 +226,142 @@ body.woocommerce-edit-address {
    }
   }
 }
+
+// Woocommerce Single Product
+
+
+.product {
+  .images {
+   border-bottom: none;
+   padding: 10px;
+   .swiper-slide {
+     background-color: $primary-color !important;
+   }
+  }
+  .single-product-info {
+    .summary {
+      .price {
+        font-size: 1.2rem;
+      }
+    }
+    .entry-summary {
+      text-align: center;
+      h1.product_title {
+        font-size: 1.2em;
+        margin: 0;
+        margin-bottom: 10px
+      }
+      .woocommerce-product-rating {
+        .star-rating {
+          margin: 0 auto;
+          float: none !important;
+        }
+        a.woocommerce-review-link {
+          display: none;
+        }
+      }
+      .quantity {
+        input.qty {
+          background-color: white !important;
+          color: black !important;
+          border: 1px solid $color-lightgray;
+        }
+      }
+      button.single_add_to_cart_button {
+        float: right !important;
+      }
+      .product_meta {
+        margin-bottom: 1.5em;
+        padding: 1em;
+        border: 1px solid grey;
+        span.posted_in {
+          a {
+            color: $primary-color;
+            text-decoration: none;
+          }
+        }
+        span.tagged_as {
+          a {
+          color: $primary-color;
+          text-decoration: none;
+          }
+        }
+      }
+    }
+    .woocommerce-tabs {
+      ul.tabs {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 1.5em;
+        li {
+          border: none;
+          border-radius: 0;
+          font-weight: 400;
+        }
+        li.active {
+          background-color: $primary-color;
+          color: white;
+        }
+      }
+      .panel {
+        padding: 10px;
+        h2 {
+          font-size: 1.2em;
+          font-weight: 700;
+        }
+        .woocommerce-Reviews {
+          h2.woocommerce-Reviews-title {
+            font-size: 1.2em !important;
+          }
+          .comment-respond {
+            h3 {
+              font-size: 1.2em !important;
+              text-align: center;
+            }
+            .comment-form {
+              p {
+                text-align: center;
+                label {
+                  font-size: 1.2em;
+                }
+                p.stars {
+                font-size: 2em;
+                padding-top: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .related {
+      h2 {
+        font-size: 1.2em;
+        text-align: center;
+        margin-bottom: 25px;
+        background-color: $primary-color;
+        color: white !important;
+        padding: 10px;
+      }
+    }
+  }
+}
+
+// No Shadows on Tabs
+.woocommerce-tabs ul.tabs:before, .woocommerce-tabs ul.tabs:after {
+  box-shadow: none;
+  border: none;
+}
+
+.woocommerce-tabs ul.tabs li.active:after, .woocommerce-tabs ul.tabs li:after {
+  box-shadow: none;
+}
+
+.woocommerce-tabs ul.tabs li:before, .woocommerce-tabs ul.tabs li:after {
+    border: none;
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    content: " ";
+}

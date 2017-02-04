@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ion 1.2.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-28 16:49-0500\n"
-"PO-Revision-Date: 2017-01-28 16:57-0500\n"
+"PO-Revision-Date: 2017-01-30 21:51-0500\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -448,76 +448,81 @@ msgstr "Rechazado"
 
 #: buddypress/buddypress-functions.php:307
 msgid "Show all"
-msgstr ""
+msgstr "Mostrar todo"
 
 #: buddypress/buddypress-functions.php:308
 msgid "Show all comments for this thread"
-msgstr ""
+msgstr "Mostrar todos los comentarios para este hilo."
 
 #: buddypress/buddypress-functions.php:309
 #, php-format
 msgid "Show all %d comments"
-msgstr ""
+msgstr "Mostrar todos los %d comentarios"
 
 #: buddypress/buddypress-functions.php:310
 msgid ""
 "Your profile has unsaved changes. If you leave the page, the changes will be "
 "lost."
 msgstr ""
+"Tu perfil tiene cambios no guardados. Si abandonas esta página, los cambios "
+"se perderán."
 
 #: buddypress/buddypress-functions.php:311
 msgid "View"
-msgstr ""
+msgstr "Ver"
 
 #: buddypress/buddypress-functions.php:338
 msgid "Unstar"
-msgstr ""
+msgstr "Quitar estrella"
 
 #: buddypress/buddypress-functions.php:339
 msgid "Star"
-msgstr ""
+msgstr "Star"
 
 #: buddypress/buddypress-functions.php:340
 msgid "Starred"
-msgstr ""
+msgstr "Destacado"
 
 #: buddypress/buddypress-functions.php:341
 msgid "Not starred"
-msgstr ""
+msgstr "Sin estrella"
 
 #: buddypress/buddypress-functions.php:342
 msgid "Remove all starred messages in this thread"
-msgstr ""
+msgstr "Eliminar todos los mensajes con estrella de este hilo"
 
 #: buddypress/buddypress-functions.php:343
 msgid "Star the first message in this thread"
-msgstr ""
+msgstr "Poner estrella al primer mensaje del hilo"
 
 #: buddypress/buddypress-functions.php:926
 msgid "Please enter some content to post."
-msgstr ""
+msgstr "Por favor, introduce algo a enviar."
 
 #: buddypress/buddypress-functions.php:943
 msgid "There was a problem posting your update. Please try again."
 msgstr ""
+"Ha habido un problema publicando su actualización. Por favor, inténtalo de "
+"nuevo."
 
 #: buddypress/buddypress-functions.php:992
 msgid "There was an error posting your reply. Please try again."
 msgstr ""
+"Hubo un error al publicar tu respuesta. Por favor, vuelve a intentarlo."
 
 #: buddypress/buddypress-functions.php:995
 msgid "Please do not leave the comment area blank."
-msgstr ""
+msgstr "Por favor, no dejes el comentario vacio."
 
 #: buddypress/buddypress-functions.php:1075
 #: buddypress/buddypress-functions.php:1112
 msgid "There was a problem when deleting. Please try again."
-msgstr ""
+msgstr "Hubo un error en la eliminación. Por favor, prueba de nuevo."
 
 #: buddypress/buddypress-functions.php:1295 buddypress/groups/create.php:254
 #: buddypress/groups/single/invites-loop.php:51
 msgid "Remove Invite"
-msgstr ""
+msgstr "Borrar invitación"
 
 #: buddypress/buddypress-functions.php:1299
 #, php-format
@@ -525,23 +530,25 @@ msgid ""
 "%s has previously requested to join this group. Sending an invitation will "
 "automatically add the member to the group."
 msgstr ""
+"%s ha pedido unirse previamente a este grupo. Enviándole una invitación lo "
+"agregará automáticamente al grupo."
 
 #: buddypress/buddypress-functions.php:1344
 msgid "Friendship could not be canceled."
-msgstr ""
+msgstr "La amistad no puede ser cancelada."
 
 #: buddypress/buddypress-functions.php:1346
 #: buddypress/buddypress-functions.php:1364
 msgid "Add Friend"
-msgstr ""
+msgstr "Añadir amigo"
 
 #: buddypress/buddypress-functions.php:1354
 msgid " Friendship could not be requested."
-msgstr ""
+msgstr "No se ha podido solicitar la amistad."
 
 #: buddypress/buddypress-functions.php:1356
 msgid "Cancel Friendship Request"
-msgstr ""
+msgstr "Cancelar solicitud de amistad"
 
 #: buddypress/buddypress-functions.php:1366
 msgid "Friendship request could not be cancelled."
