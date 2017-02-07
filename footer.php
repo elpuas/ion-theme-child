@@ -14,7 +14,7 @@
 
 			<div id="footer-menu">
 				<div class="buttons">
-					<?php do_action( 'appp_header_left' ); ?>
+					<button class="button-back-button button-clear nav-left-btn"><i class="icon ion-ios-arrow-'.$lr_arrow.'"></i></button>
 				</div>
 				<?php
 

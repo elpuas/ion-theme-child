@@ -50,6 +50,8 @@ h1.page-title {
   }
   a {
     color:#a1a1a1;
+    text-decoration: none;
+    font-family: $primary-font;
     span {
         margin-top: 5px;
         margin-bottom: 25px;
