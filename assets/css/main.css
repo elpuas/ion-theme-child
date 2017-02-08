@@ -117,12 +117,32 @@ img.the-brands {
   width: 100% !important;
 }
 
-/* line 114, sass/partials/_woocommerce.scss */
+/* line 115, sass/partials/_woocommerce.scss */
+.woocommerce header.title h3 {
+  color: white !important;
+  background-color: #8c9954;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 10px 0;
+}
+/* line 123, sass/partials/_woocommerce.scss */
+.woocommerce header.woocommerce-Address-title h3 {
+  width: 100%;
+}
+/* line 126, sass/partials/_woocommerce.scss */
+.woocommerce h2 {
+  color: white !important;
+  background-color: #8c9954;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 10px 0;
+}
+/* line 133, sass/partials/_woocommerce.scss */
 .woocommerce ul.products {
   margin: 0;
   padding: 0;
 }
-/* line 117, sass/partials/_woocommerce.scss */
+/* line 136, sass/partials/_woocommerce.scss */
 .woocommerce ul.products li.product {
   text-align: center;
   width: 45%;
@@ -130,26 +150,78 @@ img.the-brands {
   margin-left: 3.575%;
   min-height: 280px;
 }
-/* line 123, sass/partials/_woocommerce.scss */
+/* line 142, sass/partials/_woocommerce.scss */
 .woocommerce ul.products li.product img {
   box-shadow: 0 0 3px 0px #a1a1a1;
   border: solid 1px rgba(161, 161, 161, 0.32);
   border-bottom: solid 10px #8c9954;
 }
-/* line 128, sass/partials/_woocommerce.scss */
+/* line 147, sass/partials/_woocommerce.scss */
 .woocommerce ul.products li.product a {
   text-decoration: none;
   color: #8c9954;
   font-size: 16px;
 }
+/* line 154, sass/partials/_woocommerce.scss */
+.woocommerce ul.order_details {
+  border: 1px solid #e1e1e1;
+  background: #fff;
+  margin: 0 -1px 24px 0;
+  text-align: left;
+  width: 100%;
+  border-radius: 5px;
+}
+/* line 161, sass/partials/_woocommerce.scss */
+.woocommerce ul.order_details li {
+  padding: 10px;
+  width: 100%;
+  border-right: none;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 10px;
+}
+/* line 167, sass/partials/_woocommerce.scss */
+.woocommerce ul.order_details li strong {
+  display: inherit;
+}
+/* line 173, sass/partials/_woocommerce.scss */
+.woocommerce table.shop_table td.order-actions {
+  padding: 0;
+}
+/* line 175, sass/partials/_woocommerce.scss */
+.woocommerce table.shop_table td.order-actions a {
+  background-color: #8c9954;
+  color: white;
+  margin: 0 !important;
+  border-radius: 0;
+}
+/* line 182, sass/partials/_woocommerce.scss */
+.woocommerce table.shop_table a {
+  color: #8c9954;
+  text-decoration: none;
+}
+/* line 186, sass/partials/_woocommerce.scss */
+.woocommerce table.shop_table td.points-rewards-event-points {
+  width: 100%;
+}
+/* line 190, sass/partials/_woocommerce.scss */
+.woocommerce address {
+  border: 1px solid #e1e1e1;
+  background: #fff;
+  margin: 0 -1px 24px 0;
+  text-align: left;
+  width: 100%;
+  border-radius: 5px;
+  font-weight: 400 !important;
+  padding: 10px;
+}
 
-/* line 140, sass/partials/_woocommerce.scss */
+/* line 206, sass/partials/_woocommerce.scss */
 nav.woocommerce-MyAccount-navigation ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 144, sass/partials/_woocommerce.scss */
+/* line 210, sass/partials/_woocommerce.scss */
 nav.woocommerce-MyAccount-navigation ul li {
   width: 100%;
   text-align: center;
@@ -160,36 +232,80 @@ nav.woocommerce-MyAccount-navigation ul li {
   margin-bottom: 10px;
   padding: 10px 0;
 }
-/* line 153, sass/partials/_woocommerce.scss */
+/* line 219, sass/partials/_woocommerce.scss */
 nav.woocommerce-MyAccount-navigation ul li a {
   display: block;
   text-decoration: none;
   color: white;
 }
 
-/* line 165, sass/partials/_woocommerce.scss */
+/* line 231, sass/partials/_woocommerce.scss */
 form.woocommerce-EditAccountForm p label {
   text-align: left;
 }
-/* line 168, sass/partials/_woocommerce.scss */
+/* line 234, sass/partials/_woocommerce.scss */
 form.woocommerce-EditAccountForm fieldset {
   margin-top: 25px;
 }
-/* line 170, sass/partials/_woocommerce.scss */
+/* line 236, sass/partials/_woocommerce.scss */
 form.woocommerce-EditAccountForm fieldset legend {
   text-align: center;
 }
-/* line 174, sass/partials/_woocommerce.scss */
+/* line 240, sass/partials/_woocommerce.scss */
 form.woocommerce-EditAccountForm input.woocommerce-Button {
   margin-top: 10px;
 }
 
-/* line 184, sass/partials/_woocommerce.scss */
+/* line 248, sass/partials/_woocommerce.scss */
+.woocommerce-MyAccount-content h2 {
+  text-align: center;
+  background-color: #8c9954;
+  color: white;
+}
+/* line 258, sass/partials/_woocommerce.scss */
+.woocommerce-MyAccount-content p strong {
+  color: white;
+  background-color: #8c9954;
+  padding: 5px 10px;
+}
+/* line 263, sass/partials/_woocommerce.scss */
+.woocommerce-MyAccount-content p a {
+  color: #8c9954;
+  text-decoration: none;
+}
+/* line 270, sass/partials/_woocommerce.scss */
 .woocommerce-MyAccount-content form p label {
   text-align: left;
 }
+/* line 275, sass/partials/_woocommerce.scss */
+.woocommerce-MyAccount-content .woocommerce-info {
+  border-top: 3px solid #8c9954;
+}
+/* line 277, sass/partials/_woocommerce.scss */
+.woocommerce-MyAccount-content .woocommerce-info .button {
+  background-color: #8c9954;
+  color: white;
+}
+/* line 281, sass/partials/_woocommerce.scss */
+.woocommerce-MyAccount-content .woocommerce-info:before {
+  background-color: #8c9954;
+}
 
-/* line 194, sass/partials/_woocommerce.scss */
+/* line 286, sass/partials/_woocommerce.scss */
+.woocommerce-message {
+  border-top: 3px solid #8c9954;
+}
+/* line 288, sass/partials/_woocommerce.scss */
+.woocommerce-message .button {
+  background-color: #8c9954;
+  color: white;
+}
+/* line 292, sass/partials/_woocommerce.scss */
+.woocommerce-message:before {
+  background-color: #8c9954;
+}
+
+/* line 300, sass/partials/_woocommerce.scss */
 body.woocommerce-edit-address .woocommerce {
   display: -webkit-box;
   display: -moz-box;
@@ -208,7 +324,7 @@ body.woocommerce-edit-address .woocommerce {
   -webkit-align-items: flex-start;
   align-items: flex-start;
 }
-/* line 211, sass/partials/_woocommerce.scss */
+/* line 317, sass/partials/_woocommerce.scss */
 body.woocommerce-edit-address .woocommerce .woocommerce-MyAccount-navigation {
   -webkit-box-ordinal-group: 2;
   -moz-box-ordinal-group: 2;
@@ -218,7 +334,7 @@ body.woocommerce-edit-address .woocommerce .woocommerce-MyAccount-navigation {
   width: 100%;
   margin-top: 25px;
 }
-/* line 220, sass/partials/_woocommerce.scss */
+/* line 326, sass/partials/_woocommerce.scss */
 body.woocommerce-edit-address .woocommerce .woocommerce-MyAccount-content {
   -webkit-box-ordinal-group: 1;
   -moz-box-ordinal-group: 1;
@@ -227,113 +343,113 @@ body.woocommerce-edit-address .woocommerce .woocommerce-MyAccount-content {
   order: 1;
 }
 
-/* line 234, sass/partials/_woocommerce.scss */
+/* line 340, sass/partials/_woocommerce.scss */
 .product .images {
   border-bottom: none;
   padding: 10px;
 }
-/* line 237, sass/partials/_woocommerce.scss */
+/* line 343, sass/partials/_woocommerce.scss */
 .product .images .swiper-slide {
   background-color: #8c9954 !important;
 }
-/* line 243, sass/partials/_woocommerce.scss */
+/* line 349, sass/partials/_woocommerce.scss */
 .product .single-product-info .summary .price {
   font-size: 1.2rem;
 }
-/* line 247, sass/partials/_woocommerce.scss */
+/* line 353, sass/partials/_woocommerce.scss */
 .product .single-product-info .entry-summary {
   text-align: center;
 }
-/* line 249, sass/partials/_woocommerce.scss */
+/* line 355, sass/partials/_woocommerce.scss */
 .product .single-product-info .entry-summary h1.product_title {
   font-size: 1.2em;
   margin: 0;
   margin-bottom: 10px;
 }
-/* line 255, sass/partials/_woocommerce.scss */
+/* line 361, sass/partials/_woocommerce.scss */
 .product .single-product-info .entry-summary .woocommerce-product-rating .star-rating {
   margin: 0 auto;
   float: none !important;
 }
-/* line 259, sass/partials/_woocommerce.scss */
+/* line 365, sass/partials/_woocommerce.scss */
 .product .single-product-info .entry-summary .woocommerce-product-rating a.woocommerce-review-link {
   display: none;
 }
-/* line 264, sass/partials/_woocommerce.scss */
+/* line 370, sass/partials/_woocommerce.scss */
 .product .single-product-info .entry-summary .quantity input.qty {
   background-color: white !important;
   color: black !important;
   border: 1px solid #a1a1a1;
 }
-/* line 270, sass/partials/_woocommerce.scss */
+/* line 376, sass/partials/_woocommerce.scss */
 .product .single-product-info .entry-summary button.single_add_to_cart_button {
   float: right !important;
 }
-/* line 273, sass/partials/_woocommerce.scss */
+/* line 379, sass/partials/_woocommerce.scss */
 .product .single-product-info .entry-summary .product_meta {
   margin-bottom: 1.5em;
   padding: 1em;
   border: 1px solid grey;
 }
-/* line 278, sass/partials/_woocommerce.scss */
+/* line 384, sass/partials/_woocommerce.scss */
 .product .single-product-info .entry-summary .product_meta span.posted_in a {
   color: #8c9954;
   text-decoration: none;
 }
-/* line 284, sass/partials/_woocommerce.scss */
+/* line 390, sass/partials/_woocommerce.scss */
 .product .single-product-info .entry-summary .product_meta span.tagged_as a {
   color: #8c9954;
   text-decoration: none;
 }
-/* line 292, sass/partials/_woocommerce.scss */
+/* line 398, sass/partials/_woocommerce.scss */
 .product .single-product-info .woocommerce-tabs ul.tabs {
   padding: 0;
   margin: 0;
   margin-bottom: 1.5em;
 }
-/* line 296, sass/partials/_woocommerce.scss */
+/* line 402, sass/partials/_woocommerce.scss */
 .product .single-product-info .woocommerce-tabs ul.tabs li {
   border: none;
   border-radius: 0;
   font-weight: 400;
 }
-/* line 301, sass/partials/_woocommerce.scss */
+/* line 407, sass/partials/_woocommerce.scss */
 .product .single-product-info .woocommerce-tabs ul.tabs li.active {
   background-color: #8c9954;
   color: white;
 }
-/* line 306, sass/partials/_woocommerce.scss */
+/* line 412, sass/partials/_woocommerce.scss */
 .product .single-product-info .woocommerce-tabs .panel {
   padding: 10px;
 }
-/* line 308, sass/partials/_woocommerce.scss */
+/* line 414, sass/partials/_woocommerce.scss */
 .product .single-product-info .woocommerce-tabs .panel h2 {
   font-size: 1.2em;
   font-weight: 700;
 }
-/* line 313, sass/partials/_woocommerce.scss */
+/* line 419, sass/partials/_woocommerce.scss */
 .product .single-product-info .woocommerce-tabs .panel .woocommerce-Reviews h2.woocommerce-Reviews-title {
   font-size: 1.2em !important;
 }
-/* line 317, sass/partials/_woocommerce.scss */
+/* line 423, sass/partials/_woocommerce.scss */
 .product .single-product-info .woocommerce-tabs .panel .woocommerce-Reviews .comment-respond h3 {
   font-size: 1.2em !important;
   text-align: center;
 }
-/* line 322, sass/partials/_woocommerce.scss */
+/* line 428, sass/partials/_woocommerce.scss */
 .product .single-product-info .woocommerce-tabs .panel .woocommerce-Reviews .comment-respond .comment-form p {
   text-align: center;
 }
-/* line 324, sass/partials/_woocommerce.scss */
+/* line 430, sass/partials/_woocommerce.scss */
 .product .single-product-info .woocommerce-tabs .panel .woocommerce-Reviews .comment-respond .comment-form p label {
   font-size: 1.2em;
 }
-/* line 327, sass/partials/_woocommerce.scss */
+/* line 433, sass/partials/_woocommerce.scss */
 .product .single-product-info .woocommerce-tabs .panel .woocommerce-Reviews .comment-respond .comment-form p p.stars {
   font-size: 2em;
   padding-top: 10px;
 }
-/* line 338, sass/partials/_woocommerce.scss */
+/* line 444, sass/partials/_woocommerce.scss */
 .product .single-product-info .related h2 {
   font-size: 1.2em;
   text-align: center;
@@ -343,18 +459,18 @@ body.woocommerce-edit-address .woocommerce .woocommerce-MyAccount-content {
   padding: 10px;
 }
 
-/* line 351, sass/partials/_woocommerce.scss */
+/* line 457, sass/partials/_woocommerce.scss */
 .woocommerce-tabs ul.tabs:before, .woocommerce-tabs ul.tabs:after {
   box-shadow: none;
   border: none;
 }
 
-/* line 356, sass/partials/_woocommerce.scss */
+/* line 462, sass/partials/_woocommerce.scss */
 .woocommerce-tabs ul.tabs li.active:after, .woocommerce-tabs ul.tabs li:after {
   box-shadow: none;
 }
 
-/* line 360, sass/partials/_woocommerce.scss */
+/* line 466, sass/partials/_woocommerce.scss */
 .woocommerce-tabs ul.tabs li:before, .woocommerce-tabs ul.tabs li:after {
   border: none;
   position: absolute;
@@ -362,6 +478,56 @@ body.woocommerce-edit-address .woocommerce .woocommerce-MyAccount-content {
   width: 0;
   height: 0;
   content: " ";
+}
+
+/* line 478, sass/partials/_woocommerce.scss */
+.woocommerce .product-meta-wrap {
+  background: transparent !important;
+}
+/* line 480, sass/partials/_woocommerce.scss */
+.woocommerce .product-meta-wrap h3 {
+  font-size: 1rem !important;
+  color: black !important;
+}
+/* line 484, sass/partials/_woocommerce.scss */
+.woocommerce .product-meta-wrap span.price {
+  color: #8c9954;
+}
+/* line 488, sass/partials/_woocommerce.scss */
+.woocommerce form.woocommerce-checkout input {
+  width: 100%;
+  margin: 0;
+  outline: 0;
+  line-height: inherit;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  padding: 0;
+  border-bottom: 1px solid;
+}
+
+/* line 501, sass/partials/_woocommerce.scss */
+.woocommerce-checkout-review-order .place-order {
+  padding: 0 !important;
+}
+/* line 503, sass/partials/_woocommerce.scss */
+.woocommerce-checkout-review-order .place-order input#place_order {
+  width: 100%;
+  border-radius: 0 !important;
+}
+/* line 509, sass/partials/_woocommerce.scss */
+.woocommerce-checkout-review-order li.payment_method_cod label {
+  font-size: 1.5em;
+}
+/* line 515, sass/partials/_woocommerce.scss */
+.woocommerce-checkout-review-order .payment_box p img {
+  padding: 5px;
+  margin: 0 !important;
+}
+
+/* line 525, sass/partials/_woocommerce.scss */
+.wc_points_rewards_earn_points strong {
+  color: gold;
+  text-shadow: 0px 0px 1px #d1ea44;
 }
 
 /* line 5, sass/partials/_conditional-form.scss */
@@ -495,54 +661,59 @@ h6 {
   font-size: 1.2rem;
 }
 
-/* line 15, sass/partials/_appderma.scss */
+/* line 14, sass/partials/_appderma.scss */
+label {
+  text-align: left !important;
+}
+
+/* line 20, sass/partials/_appderma.scss */
 header.bar.bar-header {
   background: transparent;
   border-top: solid 1px #504e4e;
   border-bottom: solid 1px #504e4e;
 }
-/* line 20, sass/partials/_appderma.scss */
+/* line 25, sass/partials/_appderma.scss */
 header.bar.bar-header .button-back-button i.icon.ion-ios-arrow-back {
   color: #504e4e !important;
 }
 
-/* line 26, sass/partials/_appderma.scss */
+/* line 31, sass/partials/_appderma.scss */
 button#nav-left-open::before {
   color: #504e4e;
 }
 
-/* line 31, sass/partials/_appderma.scss */
+/* line 36, sass/partials/_appderma.scss */
 .logo-header {
   width: 220px !important;
   text-align: center;
 }
-/* line 34, sass/partials/_appderma.scss */
+/* line 39, sass/partials/_appderma.scss */
 .logo-header img {
   width: 50% !important;
 }
 
-/* line 41, sass/partials/_appderma.scss */
+/* line 46, sass/partials/_appderma.scss */
 h1.page-title {
   display: none;
 }
 
-/* line 48, sass/partials/_appderma.scss */
+/* line 53, sass/partials/_appderma.scss */
 .home-nav .col {
   text-align: center;
 }
-/* line 51, sass/partials/_appderma.scss */
+/* line 56, sass/partials/_appderma.scss */
 .home-nav a {
   color: #a1a1a1;
   text-decoration: none;
   font-family: "Raleway", sans-serif;
 }
-/* line 55, sass/partials/_appderma.scss */
+/* line 60, sass/partials/_appderma.scss */
 .home-nav a span {
   margin-top: 5px;
   margin-bottom: 25px;
   display: block;
 }
-/* line 61, sass/partials/_appderma.scss */
+/* line 66, sass/partials/_appderma.scss */
 .home-nav .nav-ico {
   width: 50px;
   height: 50px;
@@ -551,57 +722,59 @@ h1.page-title {
   background-image: url("../img/home-nav-sprite.png");
   text-indent: -9999px;
 }
-/* line 70, sass/partials/_appderma.scss */
+/* line 75, sass/partials/_appderma.scss */
 .home-nav .ico2 {
   background-position: -55px;
 }
-/* line 71, sass/partials/_appderma.scss */
+/* line 76, sass/partials/_appderma.scss */
 .home-nav .ico3 {
   background-position: -110px;
 }
-/* line 72, sass/partials/_appderma.scss */
+/* line 77, sass/partials/_appderma.scss */
 .home-nav .ico4 {
   background-position: -165px;
 }
-/* line 73, sass/partials/_appderma.scss */
+/* line 78, sass/partials/_appderma.scss */
 .home-nav .ico5 {
   background-position: -220px;
 }
-/* line 74, sass/partials/_appderma.scss */
+/* line 79, sass/partials/_appderma.scss */
 .home-nav .ico6 {
   background-position: -275px;
 }
 
-/* line 79, sass/partials/_appderma.scss */
+/* line 84, sass/partials/_appderma.scss */
 section.swiper-container {
   box-shadow: 0 0 3px 0px #a1a1a1;
   margin-bottom: 25px;
 }
 
-/* line 88, sass/partials/_appderma.scss */
+/* line 93, sass/partials/_appderma.scss */
 #footer-menu ul.tabs {
   background-color: transparent !important;
   padding: 0;
+  border-top: 1px solid rgba(161, 161, 161, 0.25) !important;
 }
-/* line 91, sass/partials/_appderma.scss */
+/* line 97, sass/partials/_appderma.scss */
 #footer-menu ul.tabs li {
   width: 34%;
   padding-top: 5px !important;
   margin: 0 !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.5) !important;
 }
-/* line 96, sass/partials/_appderma.scss */
+/* line 103, sass/partials/_appderma.scss */
 #footer-menu ul.tabs li a i.icon {
   color: rgba(255, 255, 255, 0.75) !important;
 }
-/* line 99, sass/partials/_appderma.scss */
+/* line 106, sass/partials/_appderma.scss */
 #footer-menu ul.tabs .menu-item-46 {
   background: #8c9954 !important;
 }
-/* line 102, sass/partials/_appderma.scss */
+/* line 109, sass/partials/_appderma.scss */
 #footer-menu ul.tabs .menu-item-47 {
   background: #acbc69 !important;
 }
-/* line 105, sass/partials/_appderma.scss */
+/* line 112, sass/partials/_appderma.scss */
 #footer-menu ul.tabs .menu-item-50 {
   background: #c5d776 !important;
 }

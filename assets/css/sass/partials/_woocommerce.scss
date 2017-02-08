@@ -111,6 +111,25 @@ img.the-brands {
 // Woocommerce Products By Brand
 
 .woocommerce {
+  header.title {
+    h3{
+      color: white !important;
+      background-color: $primary-color;
+      text-align: center;
+      font-size: 1.5em;
+      padding:10px 0;
+    }
+  }
+  header.woocommerce-Address-title h3 {
+    width: 100%;
+}
+h2 {
+    color: white !important;
+    background-color: $primary-color;
+    text-align: center;
+    font-size: 1.5em;
+    padding:10px 0;
+}
   ul.products {
     margin: 0;
     padding: 0;
@@ -132,7 +151,54 @@ img.the-brands {
       }
     }
   }
+  ul.order_details {
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    width: 100%;
+    border-radius: 5px;
+    li {
+      padding: 10px;
+      width: 100%;
+      border-right: none;
+      border-bottom: 1px solid #e1e1e1;
+      padding: 10px;
+      strong {
+        display: inherit;
+      }
+    }
+  }
+  table.shop_table{
+    td.order-actions{
+      padding: 0;
+      a {
+        background-color: $primary-color;
+        color: white;
+        margin: 0 !important;
+        border-radius: 0;
+      }
+    }
+  a {
+    color: $primary-color;
+    text-decoration: none;
+  }
+  td.points-rewards-event-points {
+    width: 100%;
+  }
 }
+  address {
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: 400 !important;
+    padding: 10px;
+ }
+}
+
 
 // Woocommerce My Account
 
@@ -179,6 +245,26 @@ form.woocommerce-EditAccountForm {
 // Woocommerce Facturacion Form
 
 .woocommerce-MyAccount-content {
+  h2 {
+    text-align: center;
+    background-color: $primary-color;
+    color: white;
+  }
+  table.my_account_points_rewards {
+
+
+  }
+  p {
+    strong {
+      color: white;
+      background-color: $primary-color;
+      padding: 5px 10px;
+    }
+    a {
+      color: $primary-color;
+      text-decoration: none;
+    }
+  }
   form {
     p {
       label {
@@ -186,6 +272,26 @@ form.woocommerce-EditAccountForm {
       }
     }
   }
+  .woocommerce-info {
+    border-top: 3px solid $primary-color;
+     .button {
+    background-color: $primary-color;
+    color: white;
+    }
+    &:before {
+        background-color: $primary-color;
+      }
+  }
+}
+.woocommerce-message {
+  border-top: 3px solid $primary-color;
+   .button {
+  background-color: $primary-color;
+  color: white;
+  }
+  &:before {
+      background-color: $primary-color;
+    }
 }
 
 // Body Manipulation
@@ -364,4 +470,59 @@ body.woocommerce-edit-address {
     width: 0;
     height: 0;
     content: " ";
+}
+
+// Store Frontend
+
+.woocommerce {
+    .product-meta-wrap {
+      background: transparent !important;
+      h3 {
+        font-size: 1rem !important;
+        color: black !important;
+      }
+      span.price {
+        color: $primary-color;
+      }
+    }
+  form.woocommerce-checkout input {
+    width: 100%;
+    margin: 0;
+    outline: 0;
+    line-height: inherit;
+    background-color: transparent !important;
+    border-radius: 0 !important;
+    padding: 0;
+    border-bottom: 1px solid;
+  }
+}
+
+.woocommerce-checkout-review-order {
+  .place-order {
+    padding: 0 !important;
+      input#place_order {
+      width: 100%;
+      border-radius: 0 !important;
+      }
+  }
+  li.payment_method_cod {
+    label {
+      font-size: 1.5em;
+    }
+  }
+  .payment_box {
+      p {
+        img {
+      padding: 5px;
+      margin: 0 !important;
+      }
+    }
+  }
+}
+
+// Orphan Styles
+
+.wc_points_rewards_earn_points strong {
+    color: gold;
+    text-shadow: 0px 0px 1px #d1ea44;
 }

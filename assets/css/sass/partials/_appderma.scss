@@ -10,6 +10,11 @@ h4 { font-size: 1.4rem;}
 h5 { font-size: 1.3rem;}
 h6 { font-size: 1.2rem; }
 
+
+label {
+    text-align: left !important;
+}
+
 // Header
 
 header.bar.bar-header {
@@ -88,10 +93,12 @@ section.swiper-container {
   ul.tabs {
     background-color: transparent !important;
     padding: 0;
+    border-top: 1px solid rgba(161, 161, 161, 0.25)!important;
     li {
       width: 34%;
       padding-top: 5px !important;
       margin: 0 !important;
+      border-top: 1px solid rgba(255, 255, 255, 0.5) !important;;
       a{
         i.icon { color: rgba(255, 255, 255, 0.75) !important; }
       }
