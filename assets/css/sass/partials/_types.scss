@@ -21,6 +21,19 @@ select.js-wpv-filter-trigger {
    width: 100%;
  }
 
+ ul.categorychecklist {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     li {
+      width: 50%;
+      float: left;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+     }
+ }
+
  // Output
 
  ul.js-wpv-loop {

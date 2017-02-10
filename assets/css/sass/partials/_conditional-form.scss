@@ -26,3 +26,31 @@ article {
     }
   }
 }
+
+// Gravity Form
+.gform_wrapper {
+  ul.gform_fields {
+    li{
+      label {
+        display: none !important;
+      }
+      textarea {
+        background-color: rgba(221, 221, 221, 0.20);
+        margin-top: 30px;
+      }
+      input {
+        border-bottom: 1px solid $color-darkgray;
+      }
+      .ginput_complex {
+        span {
+          input {
+            border-bottom: 1px solid $color-darkgray;
+          }
+          label {
+            display: none !important;
+          }
+        }
+      }
+    }
+  }
+}

@@ -13,9 +13,7 @@
 			</div><!-- #page -->
 
 			<div id="footer-menu">
-				<div class="buttons">
-					<button class="button-back-button button-clear nav-left-btn"><i class="icon ion-ios-arrow-'.$lr_arrow.'"></i></button>
-				</div>
+
 				<?php
 
 				$footer_menu_classes = 'tabs tabs-icon-top';
@@ -70,7 +68,12 @@
 		</div><!-- .menu-left -->
 
 </div><!-- #body-container -->
-
+<div id="modal-fototipo" class="io-modal">
+    <div class="toolbar site-header">
+        <i class="io-modal-close ion-close-circled alignright"></i>
+    </div>
+    <div class="modal-content"><p>Aqui van los Fototipos</p></div>
+</div>
 <?php wp_footer(); ?>
 
 </body>
