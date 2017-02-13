@@ -474,6 +474,10 @@ body.woocommerce-edit-address {
     content: " ";
 }
 
+input#place_order {
+  background-color: $primary-color !important;
+}
+
 // Store Frontend
 
 .woocommerce {

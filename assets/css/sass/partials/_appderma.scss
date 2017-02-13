@@ -119,9 +119,9 @@ section.swiper-container {
 // Modal Search
 
 .io-modal {
-      background-color: $primary-color;
+      background-color: $primary-color !important;
   .toolbar {
-    background-color: $primary-color;
+    background-color: $primary-color !important;
     h3 {
       color: white;
       text-align: center;
@@ -135,8 +135,32 @@ section.swiper-container {
     ul {
       li.fototype-li {
         width: 100%;
-        font-size: 3rem;
-        padding: 31.5px 10px;
+        height: 100px;
+        padding-left: 15px;
+        i.fototype-graph {
+          background-image: url('https://www.appderma.com/wp-content/uploads/2017/02/home-app-fototipos.jpg');
+          width: 100px;
+          height: 100px;
+          position: absolute;
+          right: 0;
+          z-index: 999;
+          background-size: cover;
+        }
+        .fototype-skin-two {
+          background-position: 500px;
+        }
+        .fototype-skin-three {
+          background-position: 400px;
+        }
+        .fototype-skin-four {
+          background-position: 300px;
+        }
+        .fototype-skin-five {
+          background-position: 200px;
+        }
+        .fototype-skin-six {
+          background-position: 100px;
+        }
       }
       .fototype-one { background-color: #ffeeda; color: #040005; }
       .fototype-two { background-color: #ffdfca; color: #945d3f; }
@@ -158,11 +182,12 @@ section.swiper-container {
   .bar-header {
      background-color: transparent;
      border-bottom: none !important;
+     background-image: none;
      .brand-logo {
       width: 100%;
       padding: 10px;
       margin-top: 20px;
-      padding-left: 25%;
+      padding-left: 20%;
       img {
         width: 80%;
       }

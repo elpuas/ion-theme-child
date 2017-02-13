@@ -482,20 +482,25 @@ body.woocommerce-edit-address .woocommerce .woocommerce-MyAccount-content {
   content: " ";
 }
 
-/* line 480, sass/partials/_woocommerce.scss */
+/* line 477, sass/partials/_woocommerce.scss */
+input#place_order {
+  background-color: #8c9954 !important;
+}
+
+/* line 484, sass/partials/_woocommerce.scss */
 .woocommerce .product-meta-wrap {
   background: transparent !important;
 }
-/* line 482, sass/partials/_woocommerce.scss */
+/* line 486, sass/partials/_woocommerce.scss */
 .woocommerce .product-meta-wrap h3 {
   font-size: 1rem !important;
   color: black !important;
 }
-/* line 486, sass/partials/_woocommerce.scss */
+/* line 490, sass/partials/_woocommerce.scss */
 .woocommerce .product-meta-wrap span.price {
   color: #8c9954;
 }
-/* line 490, sass/partials/_woocommerce.scss */
+/* line 494, sass/partials/_woocommerce.scss */
 .woocommerce form.woocommerce-checkout input {
   width: 100%;
   margin: 0;
@@ -507,26 +512,26 @@ body.woocommerce-edit-address .woocommerce .woocommerce-MyAccount-content {
   border-bottom: 1px solid;
 }
 
-/* line 503, sass/partials/_woocommerce.scss */
+/* line 507, sass/partials/_woocommerce.scss */
 .woocommerce-checkout-review-order .place-order {
   padding: 0 !important;
 }
-/* line 505, sass/partials/_woocommerce.scss */
+/* line 509, sass/partials/_woocommerce.scss */
 .woocommerce-checkout-review-order .place-order input#place_order {
   width: 100%;
   border-radius: 0 !important;
 }
-/* line 511, sass/partials/_woocommerce.scss */
+/* line 515, sass/partials/_woocommerce.scss */
 .woocommerce-checkout-review-order li.payment_method_cod label {
   font-size: 1.5em;
 }
-/* line 517, sass/partials/_woocommerce.scss */
+/* line 521, sass/partials/_woocommerce.scss */
 .woocommerce-checkout-review-order .payment_box p img {
   padding: 5px;
   margin: 0 !important;
 }
 
-/* line 527, sass/partials/_woocommerce.scss */
+/* line 531, sass/partials/_woocommerce.scss */
 .wc_points_rewards_earn_points strong {
   color: gold;
   text-shadow: 0px 0px 1px #d1ea44;
@@ -841,11 +846,11 @@ section.swiper-container {
 
 /* line 121, sass/partials/_appderma.scss */
 .io-modal {
-  background-color: #8c9954;
+  background-color: #8c9954 !important;
 }
 /* line 123, sass/partials/_appderma.scss */
 .io-modal .toolbar {
-  background-color: #8c9954;
+  background-color: #8c9954 !important;
 }
 /* line 125, sass/partials/_appderma.scss */
 .io-modal .toolbar h3 {
@@ -860,65 +865,96 @@ section.swiper-container {
 /* line 136, sass/partials/_appderma.scss */
 .io-modal .modal-content ul li.fototype-li {
   width: 100%;
-  font-size: 3rem;
-  padding: 31.5px 10px;
+  height: 100px;
+  padding-left: 15px;
 }
-/* line 141, sass/partials/_appderma.scss */
+/* line 140, sass/partials/_appderma.scss */
+.io-modal .modal-content ul li.fototype-li i.fototype-graph {
+  background-image: url("https://www.appderma.com/wp-content/uploads/2017/02/home-app-fototipos.jpg");
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  z-index: 999;
+  background-size: cover;
+}
+/* line 149, sass/partials/_appderma.scss */
+.io-modal .modal-content ul li.fototype-li .fototype-skin-two {
+  background-position: 500px;
+}
+/* line 152, sass/partials/_appderma.scss */
+.io-modal .modal-content ul li.fototype-li .fototype-skin-three {
+  background-position: 400px;
+}
+/* line 155, sass/partials/_appderma.scss */
+.io-modal .modal-content ul li.fototype-li .fototype-skin-four {
+  background-position: 300px;
+}
+/* line 158, sass/partials/_appderma.scss */
+.io-modal .modal-content ul li.fototype-li .fototype-skin-five {
+  background-position: 200px;
+}
+/* line 161, sass/partials/_appderma.scss */
+.io-modal .modal-content ul li.fototype-li .fototype-skin-six {
+  background-position: 100px;
+}
+/* line 165, sass/partials/_appderma.scss */
 .io-modal .modal-content ul .fototype-one {
   background-color: #ffeeda;
   color: #040005;
 }
-/* line 142, sass/partials/_appderma.scss */
+/* line 166, sass/partials/_appderma.scss */
 .io-modal .modal-content ul .fototype-two {
   background-color: #ffdfca;
   color: #945d3f;
 }
-/* line 143, sass/partials/_appderma.scss */
+/* line 167, sass/partials/_appderma.scss */
 .io-modal .modal-content ul .fototype-three {
   background-color: #fdcca3;
   color: #c99339;
 }
-/* line 144, sass/partials/_appderma.scss */
+/* line 168, sass/partials/_appderma.scss */
 .io-modal .modal-content ul .fototype-four {
   background-color: #e0ad6b;
   color: #fad6b4;
 }
-/* line 145, sass/partials/_appderma.scss */
+/* line 169, sass/partials/_appderma.scss */
 .io-modal .modal-content ul .fototype-five {
   background-color: #8c563a;
   color: #f3caac;
 }
-/* line 146, sass/partials/_appderma.scss */
+/* line 170, sass/partials/_appderma.scss */
 .io-modal .modal-content ul .fototype-six {
   background-color: #280906;
   color: #f3d8bb;
 }
 
-/* line 155, sass/partials/_appderma.scss */
+/* line 179, sass/partials/_appderma.scss */
 .menu-left ul {
   min-height: inherit;
 }
-/* line 158, sass/partials/_appderma.scss */
+/* line 182, sass/partials/_appderma.scss */
 .menu-left .bar-header {
   background-color: transparent;
   border-bottom: none !important;
+  background-image: none;
 }
-/* line 161, sass/partials/_appderma.scss */
+/* line 186, sass/partials/_appderma.scss */
 .menu-left .bar-header .brand-logo {
   width: 100%;
   padding: 10px;
   margin-top: 20px;
-  padding-left: 25%;
+  padding-left: 20%;
 }
-/* line 166, sass/partials/_appderma.scss */
+/* line 191, sass/partials/_appderma.scss */
 .menu-left .bar-header .brand-logo img {
   width: 80%;
 }
-/* line 171, sass/partials/_appderma.scss */
+/* line 196, sass/partials/_appderma.scss */
 .menu-left .scroll-content {
   top: 150px !important;
 }
-/* line 174, sass/partials/_appderma.scss */
+/* line 199, sass/partials/_appderma.scss */
 .menu-left .cart-items {
   display: none;
 }

@@ -75,12 +75,12 @@
     </div>
     <div class="modal-content">
       <ul>
-				<li class="fototype-li fototype-one">Tipo 1</li>
-				<li class="fototype-li fototype-two">Tipo 2</li>
-				<li class="fototype-li fototype-three">Tipo 3</li>
-				<li class="fototype-li fototype-four">Tipo 4</li>
-				<li class="fototype-li fototype-five">Tipo 5</li>
-				<li class="fototype-li fototype-six">Tipo 6</li>
+				<li class="fototype-li fototype-one">Tipo 1 <i class="fototype-graph fototype-skin-one"></i></li>
+				<li class="fototype-li fototype-two">Tipo 2 <i class="fototype-graph fototype-skin-two"></i></li>
+				<li class="fototype-li fototype-three">Tipo 3 <i class="fototype-graph fototype-skin-three"></i></li>
+				<li class="fototype-li fototype-four">Tipo 4 <i class="fototype-graph fototype-skin-four"></i></li>
+				<li class="fototype-li fototype-five">Tipo 5 <i class="fototype-graph fototype-skin-five"></i></li>
+				<li class="fototype-li fototype-six">Tipo 6 <i class="fototype-graph fototype-skin-six"></i></li>
 			</ul>
 		</div>
 </div>

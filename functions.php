@@ -98,4 +98,39 @@ function appp_ion_enqueue_styles() {
 
 		// Toolset Types
 
+		// Remove Billing Postal Code
+
+add_filter( 'woocommerce_checkout_fields' , 'appderma_override_checkout_fields' );
+
+function appderma_override_checkout_fields( $fields ) {
+     unset($fields['billing']['billing_postcode']);
+
+     return $fields;
+}
+
+// Add a Custom field
+add_filter( 'woocommerce_checkout_fields' , 'appderma_add_checkout_fields' );
+
+function appderma_add_checkout_fields( $fields ) {
+     $fields['billing']['billing_id'] = array(
+        'label'     => __('DNI/ROR', 'woocommerce'),
+        'placeholder'   => _x('DNI/ROR', 'placeholder', 'woocommerce'),
+        'required'  => true,
+        'class'     => array('form-row-wide'),
+        'clear'     => true
+     );
+
+     return $fields;
+}
+
+/**
+ * Display field value on the order edit page
+ */
+
+add_action( 'woocommerce_admin_order_data_after_shipping_address', 'appderma_checkout_field_display_admin_order_meta', 10, 1 );
+
+function appderma_checkout_field_display_admin_order_meta($order){
+    echo '<p><strong>'.__('DNI o ROR').':</strong> ' . get_post_meta( $order->id, '_billing_id', true ) . '</p>';
+}
+
 		 ?>
