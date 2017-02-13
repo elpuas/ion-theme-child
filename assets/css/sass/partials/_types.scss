@@ -2,15 +2,28 @@
 
 
 select.js-wpv-filter-trigger {
-  background-color: #8c9954 !important;
+  background-color: $primary-color !important;
   border: 1px solid white;
   border-radius: 4px;
-  box-shadow: 0 0 3px 0 #a1a1a1;
-  padding: 5px 15px;
+  box-shadow: 0 0 3px 0 $color-lightgray;
   color: white;
   -webkit-appearance: none;
   text-align-last: center;
+  width:100%;
+  margin-top: 20px;
+  padding: 15px 15px;
   }
+
+
+.step-two-logic p {
+margin-top: 10px;
+}
+
+a.io-modal-open {
+    font-size: 0.9em !important;
+    padding: 10px !important;
+    display: block;
+}
 
 
  button.button-default {

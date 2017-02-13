@@ -35,16 +35,16 @@
 
 		<div class="menu menu-left menu-layer">
 			<div class="bar bar-header">
-				<div class="title"></div>
+				<div class="brand-logo"><img src="<?php bloginfo('stylesheet_directory');?>/assets/img/logo-menu-left.png" /></div>
 			</div>
-
+      <div style="clear: both;width:100%"> &nbsp;</div>
 			<div class="scroll-content ionic-scroll has-header">
 
 				<div class="scroll">
 
 				<?php appp_left_panel_before(); // Hook for search, user profile, and cart items ?>
 
-				<!-- menu goes here. should be .list > .item -->
+				<div style="clear: both;width:100%; height:5px;"> &nbsp;</div>
 
 				<?php
 					$navargs = array(
@@ -70,9 +70,19 @@
 </div><!-- #body-container -->
 <div id="modal-fototipo" class="io-modal">
     <div class="toolbar site-header">
+			  <h3>Fototipos</h3>
         <i class="io-modal-close ion-close-circled alignright"></i>
     </div>
-    <div class="modal-content"><p>Aqui van los Fototipos</p></div>
+    <div class="modal-content">
+      <ul>
+				<li class="fototype-li fototype-one">Tipo 1</li>
+				<li class="fototype-li fototype-two">Tipo 2</li>
+				<li class="fototype-li fototype-three">Tipo 3</li>
+				<li class="fototype-li fototype-four">Tipo 4</li>
+				<li class="fototype-li fototype-five">Tipo 5</li>
+				<li class="fototype-li fototype-six">Tipo 6</li>
+			</ul>
+		</div>
 </div>
 <?php wp_footer(); ?>
 

@@ -115,3 +115,63 @@ section.swiper-container {
   }
 
 }
+
+// Modal Search
+
+.io-modal {
+      background-color: $primary-color;
+  .toolbar {
+    background-color: $primary-color;
+    h3 {
+      color: white;
+      text-align: center;
+      padding-top: 13px;
+    }
+    .io-modal-close {
+    font-size: 1.5rem !important;
+}
+  }
+  .modal-content {
+    ul {
+      li.fototype-li {
+        width: 100%;
+        font-size: 3rem;
+        padding: 31.5px 10px;
+      }
+      .fototype-one { background-color: #ffeeda; color: #040005; }
+      .fototype-two { background-color: #ffdfca; color: #945d3f; }
+      .fototype-three { background-color: #fdcca3; color: #c99339;}
+      .fototype-four { background-color: #e0ad6b; color: #fad6b4; }
+      .fototype-five { background-color: #8c563a; color: #f3caac; }
+      .fototype-six { background-color: #280906; color: #f3d8bb; }
+    }
+  }
+
+}
+
+// Menu Left
+
+.menu-left {
+  ul {
+    min-height: inherit;
+  }
+  .bar-header {
+     background-color: transparent;
+     border-bottom: none !important;
+     .brand-logo {
+      width: 100%;
+      padding: 10px;
+      margin-top: 20px;
+      padding-left: 25%;
+      img {
+        width: 80%;
+      }
+    }
+  }
+  .scroll-content {
+    top: 150px !important;
+  }
+  .cart-items {
+    display: none;
+  }
+}

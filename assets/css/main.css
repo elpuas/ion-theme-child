@@ -588,13 +588,27 @@ select.js-wpv-filter-trigger {
   border: 1px solid white;
   border-radius: 4px;
   box-shadow: 0 0 3px 0 #a1a1a1;
-  padding: 5px 15px;
   color: white;
   -webkit-appearance: none;
   text-align-last: center;
+  width: 100%;
+  margin-top: 20px;
+  padding: 15px 15px;
 }
 
-/* line 16, sass/partials/_types.scss */
+/* line 18, sass/partials/_types.scss */
+.step-two-logic p {
+  margin-top: 10px;
+}
+
+/* line 22, sass/partials/_types.scss */
+a.io-modal-open {
+  font-size: 0.9em !important;
+  padding: 10px !important;
+  display: block;
+}
+
+/* line 29, sass/partials/_types.scss */
 button.button-default {
   background-color: #8c9954;
   color: white;
@@ -606,18 +620,18 @@ button.button-default {
   width: 100%;
 }
 
-/* line 27, sass/partials/_types.scss */
+/* line 40, sass/partials/_types.scss */
 .step-one-logic {
   color: #504e4e;
 }
 
-/* line 32, sass/partials/_types.scss */
+/* line 45, sass/partials/_types.scss */
 ul.categorychecklist {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 36, sass/partials/_types.scss */
+/* line 49, sass/partials/_types.scss */
 ul.categorychecklist li {
   width: 50%;
   float: left;
@@ -626,13 +640,13 @@ ul.categorychecklist li {
   text-align: left;
 }
 
-/* line 47, sass/partials/_types.scss */
+/* line 60, sass/partials/_types.scss */
 ul.js-wpv-loop {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 51, sass/partials/_types.scss */
+/* line 64, sass/partials/_types.scss */
 ul.js-wpv-loop li {
   text-align: center;
   width: 45%;
@@ -640,19 +654,19 @@ ul.js-wpv-loop li {
   margin-left: 3.575%;
   min-height: 280px;
 }
-/* line 57, sass/partials/_types.scss */
+/* line 70, sass/partials/_types.scss */
 ul.js-wpv-loop li img {
   box-shadow: 0 0 3px 0px #a1a1a1;
   border: solid 1px rgba(161, 161, 161, 0.32);
   border-bottom: solid 10px #8c9954;
 }
-/* line 62, sass/partials/_types.scss */
+/* line 75, sass/partials/_types.scss */
 ul.js-wpv-loop li a {
   text-decoration: none;
   color: #8c9954;
   font-size: 16px;
 }
-/* line 67, sass/partials/_types.scss */
+/* line 80, sass/partials/_types.scss */
 ul.js-wpv-loop li p {
   color: #504e4e;
 }
@@ -823,4 +837,88 @@ section.swiper-container {
 /* line 112, sass/partials/_appderma.scss */
 #footer-menu ul.tabs .menu-item-50 {
   background: #c5d776 !important;
+}
+
+/* line 121, sass/partials/_appderma.scss */
+.io-modal {
+  background-color: #8c9954;
+}
+/* line 123, sass/partials/_appderma.scss */
+.io-modal .toolbar {
+  background-color: #8c9954;
+}
+/* line 125, sass/partials/_appderma.scss */
+.io-modal .toolbar h3 {
+  color: white;
+  text-align: center;
+  padding-top: 13px;
+}
+/* line 130, sass/partials/_appderma.scss */
+.io-modal .toolbar .io-modal-close {
+  font-size: 1.5rem !important;
+}
+/* line 136, sass/partials/_appderma.scss */
+.io-modal .modal-content ul li.fototype-li {
+  width: 100%;
+  font-size: 3rem;
+  padding: 31.5px 10px;
+}
+/* line 141, sass/partials/_appderma.scss */
+.io-modal .modal-content ul .fototype-one {
+  background-color: #ffeeda;
+  color: #040005;
+}
+/* line 142, sass/partials/_appderma.scss */
+.io-modal .modal-content ul .fototype-two {
+  background-color: #ffdfca;
+  color: #945d3f;
+}
+/* line 143, sass/partials/_appderma.scss */
+.io-modal .modal-content ul .fototype-three {
+  background-color: #fdcca3;
+  color: #c99339;
+}
+/* line 144, sass/partials/_appderma.scss */
+.io-modal .modal-content ul .fototype-four {
+  background-color: #e0ad6b;
+  color: #fad6b4;
+}
+/* line 145, sass/partials/_appderma.scss */
+.io-modal .modal-content ul .fototype-five {
+  background-color: #8c563a;
+  color: #f3caac;
+}
+/* line 146, sass/partials/_appderma.scss */
+.io-modal .modal-content ul .fototype-six {
+  background-color: #280906;
+  color: #f3d8bb;
+}
+
+/* line 155, sass/partials/_appderma.scss */
+.menu-left ul {
+  min-height: inherit;
+}
+/* line 158, sass/partials/_appderma.scss */
+.menu-left .bar-header {
+  background-color: transparent;
+  border-bottom: none !important;
+}
+/* line 161, sass/partials/_appderma.scss */
+.menu-left .bar-header .brand-logo {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  padding-left: 25%;
+}
+/* line 166, sass/partials/_appderma.scss */
+.menu-left .bar-header .brand-logo img {
+  width: 80%;
+}
+/* line 171, sass/partials/_appderma.scss */
+.menu-left .scroll-content {
+  top: 150px !important;
+}
+/* line 174, sass/partials/_appderma.scss */
+.menu-left .cart-items {
+  display: none;
 }
