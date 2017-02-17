@@ -26,6 +26,8 @@
 
 				<div class="buttons">
 
+					<?php do_action( 'appp_header_left' ); ?>
+
 					<button id="nav-left-open" class="nav-left-btn button button-icon icon ion-navicon"></button>
 
 				</div>

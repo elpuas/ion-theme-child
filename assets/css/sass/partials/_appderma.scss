@@ -200,3 +200,60 @@ section.swiper-container {
     display: none;
   }
 }
+
+// Store Brands
+
+.button-store-brands {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.button-brand-single {
+    background-color: #8c9954;
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    line-height: 2.6em;
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+    }
+}
+
+.jp-relatedposts {
+    display: none !important;
+}
+
+// Contact
+
+.contact-info {
+  padding: 0 15px;
+  p { text-align: left !important;
+    a {
+      color: $primary-color;
+    }
+    i.icon {
+      color: $primary-color;
+    }
+  }
+}
+
+// Others
+
+.entry-content {
+  p {
+    a {
+      color: $primary-color;
+    }
+  }
+  ol {
+    li {
+      color: $color-lightgray;
+    }
+  }
+}

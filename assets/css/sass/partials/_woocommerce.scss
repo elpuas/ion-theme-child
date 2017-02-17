@@ -350,12 +350,13 @@ body.woocommerce-edit-address {
     .summary {
       .price {
         font-size: 1.2rem;
+        color: $primary-color;
       }
     }
     .entry-summary {
       text-align: center;
       h1.product_title {
-        font-size: 1.2em;
+        font-size: 2rem;
         margin: 0;
         margin-bottom: 10px
       }
@@ -531,4 +532,14 @@ input#place_order {
 .wc_points_rewards_earn_points strong {
     color: gold;
     text-shadow: 0px 0px 1px #d1ea44;
+}
+
+.products .star-rating {
+    display: block;
+    margin: 0 auto;
+    float: none;
+}
+
+.woocommerce-info.wc_points_redeem_earn_points {
+    display: none;
 }
