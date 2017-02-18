@@ -14,9 +14,16 @@ select.js-wpv-filter-trigger {
   padding: 15px 15px;
   }
 
+.step-one-logic  {
+    p {
+      margin-top: 15px;
+    }
+  }
 
-.step-two-logic p {
-margin-top: 10px;
+.step-two-logic  {
+  p {
+    margin-top: 15px;
+  }
 }
 
 a.io-modal-open {
@@ -80,6 +87,8 @@ a.io-modal-open {
      p {
        color: $color-darkgray;
     }
-
+    .star-rating {
+      margin-right: 23px;
+    }
    }
  }

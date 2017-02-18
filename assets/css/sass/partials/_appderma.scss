@@ -26,10 +26,15 @@ header.bar.bar-header {
         color: $color-darkgray !important;
       }
     }
-
+    .cart-icon {
+      position: absolute;
+      right: 20px;
+  }
 }
-button#nav-left-open::before {
+button#nav-left-open {
+  &:before {
    color: $color-darkgray;
+  }
 }
 
 // Logo
@@ -253,7 +258,8 @@ section.swiper-container {
   }
   ol {
     li {
-      color: $color-lightgray;
+      color: $color-darkgray;
+      margin-bottom: 15px;
     }
   }
 }

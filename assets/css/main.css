@@ -557,7 +557,7 @@ article .entry-content h3 {
 }
 /* line 9, sass/partials/_conditional-form.scss */
 article .entry-content p {
-  color: #a1a1a1;
+  color: #504e4e;
   text-align: center;
 }
 /* line 13, sass/partials/_conditional-form.scss */
@@ -613,18 +613,23 @@ select.js-wpv-filter-trigger {
 }
 
 /* line 18, sass/partials/_types.scss */
-.step-two-logic p {
-  margin-top: 10px;
+.step-one-logic p {
+  margin-top: 15px;
 }
 
-/* line 22, sass/partials/_types.scss */
+/* line 24, sass/partials/_types.scss */
+.step-two-logic p {
+  margin-top: 15px;
+}
+
+/* line 29, sass/partials/_types.scss */
 a.io-modal-open {
   font-size: 0.9em !important;
   padding: 10px !important;
   display: block;
 }
 
-/* line 29, sass/partials/_types.scss */
+/* line 36, sass/partials/_types.scss */
 button.button-default {
   background-color: #8c9954;
   color: white;
@@ -636,18 +641,18 @@ button.button-default {
   width: 100%;
 }
 
-/* line 40, sass/partials/_types.scss */
+/* line 47, sass/partials/_types.scss */
 .step-one-logic {
   color: #504e4e;
 }
 
-/* line 45, sass/partials/_types.scss */
+/* line 52, sass/partials/_types.scss */
 ul.categorychecklist {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 49, sass/partials/_types.scss */
+/* line 56, sass/partials/_types.scss */
 ul.categorychecklist li {
   width: 50%;
   float: left;
@@ -656,13 +661,13 @@ ul.categorychecklist li {
   text-align: left;
 }
 
-/* line 60, sass/partials/_types.scss */
+/* line 67, sass/partials/_types.scss */
 ul.js-wpv-loop {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 64, sass/partials/_types.scss */
+/* line 71, sass/partials/_types.scss */
 ul.js-wpv-loop li {
   text-align: center;
   width: 45%;
@@ -670,21 +675,25 @@ ul.js-wpv-loop li {
   margin-left: 3.575%;
   min-height: 280px;
 }
-/* line 70, sass/partials/_types.scss */
+/* line 77, sass/partials/_types.scss */
 ul.js-wpv-loop li img {
   box-shadow: 0 0 3px 0px #a1a1a1;
   border: solid 1px rgba(161, 161, 161, 0.32);
   border-bottom: solid 10px #8c9954;
 }
-/* line 75, sass/partials/_types.scss */
+/* line 82, sass/partials/_types.scss */
 ul.js-wpv-loop li a {
   text-decoration: none;
   color: #8c9954;
   font-size: 16px;
 }
-/* line 80, sass/partials/_types.scss */
+/* line 87, sass/partials/_types.scss */
 ul.js-wpv-loop li p {
   color: #504e4e;
+}
+/* line 90, sass/partials/_types.scss */
+ul.js-wpv-loop li .star-rating {
+  margin-right: 23px;
 }
 
 /* line 2, sass/partials/_appderma.scss */
@@ -752,44 +761,49 @@ header.bar.bar-header {
 header.bar.bar-header .button-back-button i.icon.ion-ios-arrow-back {
   color: #504e4e !important;
 }
+/* line 29, sass/partials/_appderma.scss */
+header.bar.bar-header .cart-icon {
+  position: absolute;
+  right: 20px;
+}
 
-/* line 31, sass/partials/_appderma.scss */
-button#nav-left-open::before {
+/* line 35, sass/partials/_appderma.scss */
+button#nav-left-open:before {
   color: #504e4e;
 }
 
-/* line 36, sass/partials/_appderma.scss */
+/* line 41, sass/partials/_appderma.scss */
 .logo-header {
   width: 220px !important;
   text-align: center;
 }
-/* line 39, sass/partials/_appderma.scss */
+/* line 44, sass/partials/_appderma.scss */
 .logo-header img {
   width: 50% !important;
 }
 
-/* line 46, sass/partials/_appderma.scss */
+/* line 51, sass/partials/_appderma.scss */
 h1.page-title {
   display: none;
 }
 
-/* line 53, sass/partials/_appderma.scss */
+/* line 58, sass/partials/_appderma.scss */
 .home-nav .col {
   text-align: center;
 }
-/* line 56, sass/partials/_appderma.scss */
+/* line 61, sass/partials/_appderma.scss */
 .home-nav a {
   color: #a1a1a1;
   text-decoration: none;
   font-family: "Raleway", sans-serif;
 }
-/* line 60, sass/partials/_appderma.scss */
+/* line 65, sass/partials/_appderma.scss */
 .home-nav a span {
   margin-top: 5px;
   margin-bottom: 25px;
   display: block;
 }
-/* line 66, sass/partials/_appderma.scss */
+/* line 71, sass/partials/_appderma.scss */
 .home-nav .nav-ico {
   width: 50px;
   height: 50px;
@@ -798,88 +812,88 @@ h1.page-title {
   background-image: url("../img/home-nav-sprite.png");
   text-indent: -9999px;
 }
-/* line 75, sass/partials/_appderma.scss */
+/* line 80, sass/partials/_appderma.scss */
 .home-nav .ico2 {
   background-position: -55px;
 }
-/* line 76, sass/partials/_appderma.scss */
+/* line 81, sass/partials/_appderma.scss */
 .home-nav .ico3 {
   background-position: -110px;
 }
-/* line 77, sass/partials/_appderma.scss */
+/* line 82, sass/partials/_appderma.scss */
 .home-nav .ico4 {
   background-position: -165px;
 }
-/* line 78, sass/partials/_appderma.scss */
+/* line 83, sass/partials/_appderma.scss */
 .home-nav .ico5 {
   background-position: -220px;
 }
-/* line 79, sass/partials/_appderma.scss */
+/* line 84, sass/partials/_appderma.scss */
 .home-nav .ico6 {
   background-position: -275px;
 }
 
-/* line 84, sass/partials/_appderma.scss */
+/* line 89, sass/partials/_appderma.scss */
 section.swiper-container {
   box-shadow: 0 0 3px 0px #a1a1a1;
   margin-bottom: 25px;
 }
 
-/* line 93, sass/partials/_appderma.scss */
+/* line 98, sass/partials/_appderma.scss */
 #footer-menu ul.tabs {
   background-color: transparent !important;
   padding: 0;
   border-top: 1px solid rgba(161, 161, 161, 0.25) !important;
 }
-/* line 97, sass/partials/_appderma.scss */
+/* line 102, sass/partials/_appderma.scss */
 #footer-menu ul.tabs li {
   width: 34%;
   padding-top: 5px !important;
   margin: 0 !important;
   border-top: 1px solid rgba(255, 255, 255, 0.5) !important;
 }
-/* line 103, sass/partials/_appderma.scss */
+/* line 108, sass/partials/_appderma.scss */
 #footer-menu ul.tabs li a i.icon {
   color: rgba(255, 255, 255, 0.75) !important;
 }
-/* line 106, sass/partials/_appderma.scss */
+/* line 111, sass/partials/_appderma.scss */
 #footer-menu ul.tabs .menu-item-46 {
   background: #8c9954 !important;
 }
-/* line 109, sass/partials/_appderma.scss */
+/* line 114, sass/partials/_appderma.scss */
 #footer-menu ul.tabs .menu-item-47 {
   background: #acbc69 !important;
 }
-/* line 112, sass/partials/_appderma.scss */
+/* line 117, sass/partials/_appderma.scss */
 #footer-menu ul.tabs .menu-item-50 {
   background: #c5d776 !important;
 }
 
-/* line 121, sass/partials/_appderma.scss */
+/* line 126, sass/partials/_appderma.scss */
 .io-modal {
   background-color: #8c9954 !important;
 }
-/* line 123, sass/partials/_appderma.scss */
+/* line 128, sass/partials/_appderma.scss */
 .io-modal .toolbar {
   background-color: #8c9954 !important;
 }
-/* line 125, sass/partials/_appderma.scss */
+/* line 130, sass/partials/_appderma.scss */
 .io-modal .toolbar h3 {
   color: white;
   text-align: center;
   padding-top: 13px;
 }
-/* line 130, sass/partials/_appderma.scss */
+/* line 135, sass/partials/_appderma.scss */
 .io-modal .toolbar .io-modal-close {
   font-size: 1.5rem !important;
 }
-/* line 136, sass/partials/_appderma.scss */
+/* line 141, sass/partials/_appderma.scss */
 .io-modal .modal-content ul li.fototype-li {
   width: 100%;
   height: 100px;
   padding-left: 15px;
 }
-/* line 140, sass/partials/_appderma.scss */
+/* line 145, sass/partials/_appderma.scss */
 .io-modal .modal-content ul li.fototype-li i.fototype-graph {
   background-image: url("https://www.appderma.com/wp-content/uploads/2017/02/home-app-fototipos.jpg");
   width: 100px;
@@ -889,88 +903,88 @@ section.swiper-container {
   z-index: 999;
   background-size: cover;
 }
-/* line 149, sass/partials/_appderma.scss */
+/* line 154, sass/partials/_appderma.scss */
 .io-modal .modal-content ul li.fototype-li .fototype-skin-two {
   background-position: 500px;
 }
-/* line 152, sass/partials/_appderma.scss */
+/* line 157, sass/partials/_appderma.scss */
 .io-modal .modal-content ul li.fototype-li .fototype-skin-three {
   background-position: 400px;
 }
-/* line 155, sass/partials/_appderma.scss */
+/* line 160, sass/partials/_appderma.scss */
 .io-modal .modal-content ul li.fototype-li .fototype-skin-four {
   background-position: 300px;
 }
-/* line 158, sass/partials/_appderma.scss */
+/* line 163, sass/partials/_appderma.scss */
 .io-modal .modal-content ul li.fototype-li .fototype-skin-five {
   background-position: 200px;
 }
-/* line 161, sass/partials/_appderma.scss */
+/* line 166, sass/partials/_appderma.scss */
 .io-modal .modal-content ul li.fototype-li .fototype-skin-six {
   background-position: 100px;
 }
-/* line 165, sass/partials/_appderma.scss */
+/* line 170, sass/partials/_appderma.scss */
 .io-modal .modal-content ul .fototype-one {
   background-color: #ffeeda;
   color: #040005;
 }
-/* line 166, sass/partials/_appderma.scss */
+/* line 171, sass/partials/_appderma.scss */
 .io-modal .modal-content ul .fototype-two {
   background-color: #ffdfca;
   color: #945d3f;
 }
-/* line 167, sass/partials/_appderma.scss */
+/* line 172, sass/partials/_appderma.scss */
 .io-modal .modal-content ul .fototype-three {
   background-color: #fdcca3;
   color: #c99339;
 }
-/* line 168, sass/partials/_appderma.scss */
+/* line 173, sass/partials/_appderma.scss */
 .io-modal .modal-content ul .fototype-four {
   background-color: #e0ad6b;
   color: #fad6b4;
 }
-/* line 169, sass/partials/_appderma.scss */
+/* line 174, sass/partials/_appderma.scss */
 .io-modal .modal-content ul .fototype-five {
   background-color: #8c563a;
   color: #f3caac;
 }
-/* line 170, sass/partials/_appderma.scss */
+/* line 175, sass/partials/_appderma.scss */
 .io-modal .modal-content ul .fototype-six {
   background-color: #280906;
   color: #f3d8bb;
 }
 
-/* line 179, sass/partials/_appderma.scss */
+/* line 184, sass/partials/_appderma.scss */
 .menu-left ul {
   min-height: inherit;
 }
-/* line 182, sass/partials/_appderma.scss */
+/* line 187, sass/partials/_appderma.scss */
 .menu-left .bar-header {
   background-color: transparent;
   border-bottom: none !important;
   background-image: none;
 }
-/* line 186, sass/partials/_appderma.scss */
+/* line 191, sass/partials/_appderma.scss */
 .menu-left .bar-header .brand-logo {
   width: 100%;
   padding: 10px;
   margin-top: 20px;
   padding-left: 20%;
 }
-/* line 191, sass/partials/_appderma.scss */
+/* line 196, sass/partials/_appderma.scss */
 .menu-left .bar-header .brand-logo img {
   width: 80%;
 }
-/* line 196, sass/partials/_appderma.scss */
+/* line 201, sass/partials/_appderma.scss */
 .menu-left .scroll-content {
   top: 150px !important;
 }
-/* line 199, sass/partials/_appderma.scss */
+/* line 204, sass/partials/_appderma.scss */
 .menu-left .cart-items {
   display: none;
 }
 
-/* line 206, sass/partials/_appderma.scss */
+/* line 211, sass/partials/_appderma.scss */
 .button-store-brands {
   border: 1px solid lightgray;
   border-radius: 4px;
@@ -979,7 +993,7 @@ section.swiper-container {
   padding-right: 5px;
 }
 
-/* line 214, sass/partials/_appderma.scss */
+/* line 219, sass/partials/_appderma.scss */
 .button-brand-single {
   background-color: #8c9954;
   color: #fff;
@@ -987,40 +1001,41 @@ section.swiper-container {
   text-transform: uppercase;
   line-height: 2.6em;
 }
-/* line 221, sass/partials/_appderma.scss */
+/* line 226, sass/partials/_appderma.scss */
 .button-brand-single a {
   color: white;
   text-decoration: none;
   font-weight: 700;
 }
 
-/* line 228, sass/partials/_appderma.scss */
+/* line 233, sass/partials/_appderma.scss */
 .jp-relatedposts {
   display: none !important;
 }
 
-/* line 234, sass/partials/_appderma.scss */
+/* line 239, sass/partials/_appderma.scss */
 .contact-info {
   padding: 0 15px;
 }
-/* line 236, sass/partials/_appderma.scss */
+/* line 241, sass/partials/_appderma.scss */
 .contact-info p {
   text-align: left !important;
 }
-/* line 237, sass/partials/_appderma.scss */
+/* line 242, sass/partials/_appderma.scss */
 .contact-info p a {
   color: #8c9954;
 }
-/* line 240, sass/partials/_appderma.scss */
+/* line 245, sass/partials/_appderma.scss */
 .contact-info p i.icon {
   color: #8c9954;
 }
 
-/* line 250, sass/partials/_appderma.scss */
+/* line 255, sass/partials/_appderma.scss */
 .entry-content p a {
   color: #8c9954;
 }
-/* line 255, sass/partials/_appderma.scss */
+/* line 260, sass/partials/_appderma.scss */
 .entry-content ol li {
-  color: #a1a1a1;
+  color: #504e4e;
+  margin-bottom: 15px;
 }
