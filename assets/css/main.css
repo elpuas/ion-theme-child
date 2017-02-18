@@ -550,6 +550,16 @@ input#place_order {
   display: none;
 }
 
+/* line 547, sass/partials/_woocommerce.scss */
+.woocommerce table.shop_table th, .woocommerce-page table.shop_table th {
+  padding: .2em .1em;
+}
+
+/* line 551, sass/partials/_woocommerce.scss */
+.woocommerce table.shop_table td, .woocommerce-page table.shop_table td {
+  padding: .2em .1em;
+}
+
 /* line 5, sass/partials/_conditional-form.scss */
 article .entry-content h3 {
   color: #8c9954 !important;

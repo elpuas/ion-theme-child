@@ -543,3 +543,11 @@ input#place_order {
 .woocommerce-info.wc_points_redeem_earn_points {
     display: none;
 }
+
+.woocommerce table.shop_table th, .woocommerce-page table.shop_table th {
+    padding: .2em .1em;
+}
+
+.woocommerce table.shop_table td, .woocommerce-page table.shop_table td {
+  padding: .2em .1em;
+}
