@@ -26,13 +26,13 @@
 
 				<div class="buttons">
 
-					<?php // do_action( 'appp_header_left' ); ?>
+					<?php  do_action( 'appp_header_left' ); ?>
 
 					<button id="nav-left-open" class="nav-left-btn button button-icon icon ion-navicon"></button>
 
 				</div>
 				<div class="logo-header">
-				<img src="https://www.appderma.com/wp-content/uploads/2017/01/0.png" class="logo-responsive" />
+				<img src="<?php bloginfo('stylesheet_directory');?>/assets/img/logo-large.png" class="logo-responsive" />
 				</div>
 				<div class="buttons cart-icon">
 
