@@ -545,11 +545,6 @@ input#place_order {
   float: none;
 }
 
-/* line 543, sass/partials/_woocommerce.scss */
-.woocommerce-info.wc_points_redeem_earn_points {
-  display: none;
-}
-
 /* line 547, sass/partials/_woocommerce.scss */
 .woocommerce table.shop_table th, .woocommerce-page table.shop_table th {
   padding: .2em .1em;
@@ -1048,4 +1043,9 @@ section.swiper-container {
 .entry-content ol li {
   color: #504e4e;
   margin-bottom: 15px;
+}
+
+/* line 266, sass/partials/_appderma.scss */
+p.wc-points-rewards-product-prize {
+  border: 1px solid #8c9954;
 }
