@@ -224,6 +224,13 @@ nav.woocommerce-MyAccount-navigation {
         color: white;
       }
     }
+    .woocommerce-MyAccount-navigation-link--orders, .woocommerce-MyAccount-navigation-link--downloads, .woocommerce-MyAccount-navigation-link--edit-address, .woocommerce-MyAccount-navigation-link--edit-account {
+      background-color: white !important;
+      border: 1px solid #8c9954 !important;
+        a {
+              color: #8c9954 !important;
+        }
+    }
   }
 }
 

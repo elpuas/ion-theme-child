@@ -251,6 +251,12 @@ section.swiper-container {
 // Others
 
 .entry-content {
+  .store-hero-img {
+    border: 1px solid $color-lightgray;
+    height: 270px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 3px 0px $color-lightgray;
+    }
   p {
     a {
       color: $primary-color;
