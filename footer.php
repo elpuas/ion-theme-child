@@ -68,7 +68,7 @@
 		</div><!-- .menu-left -->
 
 </div><!-- #body-container -->
-<div id="modal-fototipo" class="io-modal">
+<div id="modal-fototipo" class="io-modal modal-fototipos">
     <div class="toolbar site-header">
 			  <h3>Fototipos</h3>
         <i class="io-modal-close ion-close-circled alignright"></i>

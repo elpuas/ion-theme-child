@@ -62,6 +62,17 @@ a.io-modal-open {
      }
  }
 
+ img.step-form-image {
+    width: 30%;
+}
+
+form.wpv-filter-form p {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
  // Output
 
  ul.js-wpv-loop {
