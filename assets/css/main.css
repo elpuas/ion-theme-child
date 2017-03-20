@@ -554,6 +554,11 @@ input#place_order {
   float: none;
 }
 
+/* line 550, sass/partials/_woocommerce.scss */
+.woocommerce-info.wc_points_redeem_earn_points {
+  display: none;
+}
+
 /* line 554, sass/partials/_woocommerce.scss */
 .woocommerce table.shop_table th, .woocommerce-page table.shop_table th {
   padding: .2em .1em;
@@ -562,6 +567,13 @@ input#place_order {
 /* line 558, sass/partials/_woocommerce.scss */
 .woocommerce table.shop_table td, .woocommerce-page table.shop_table td {
   padding: .2em .1em;
+}
+
+/* line 562, sass/partials/_woocommerce.scss */
+table.shop_table.my_account_points_rewards.my_account_orders tbody tr td, table.shop_table.my_account_points_rewards.my_account_orders thead tr th {
+  width: 33%;
+  float: left;
+  text-align: center;
 }
 
 /* line 5, sass/partials/_conditional-form.scss */
@@ -838,89 +850,94 @@ h1.page-title {
   margin: 0 auto;
   background-image: url("../img/home-nav-sprite.png");
   text-indent: -9999px;
-}
-/* line 80, sass/partials/_appderma.scss */
-.home-nav .ico2 {
-  background-position: -55px;
+  background-size: cover;
 }
 /* line 81, sass/partials/_appderma.scss */
-.home-nav .ico3 {
-  background-position: -110px;
+.home-nav .ico2 {
+  background-position: -50px;
 }
 /* line 82, sass/partials/_appderma.scss */
-.home-nav .ico4 {
-  background-position: -165px;
+.home-nav .ico3 {
+  background-position: -100px;
 }
 /* line 83, sass/partials/_appderma.scss */
-.home-nav .ico5 {
-  background-position: -220px;
+.home-nav .ico4 {
+  background-position: -150px;
 }
 /* line 84, sass/partials/_appderma.scss */
+.home-nav .ico5 {
+  background-position: -200px;
+}
+/* line 85, sass/partials/_appderma.scss */
 .home-nav .ico6 {
-  background-position: -275px;
+  background-position: -250px;
 }
 
-/* line 89, sass/partials/_appderma.scss */
+/* line 90, sass/partials/_appderma.scss */
 section.swiper-container {
   box-shadow: 0 0 3px 0px #a1a1a1;
   margin-bottom: 25px;
 }
+/* line 93, sass/partials/_appderma.scss */
+section.swiper-container .swiper-slide-content {
+  display: none;
+}
 
-/* line 98, sass/partials/_appderma.scss */
+/* line 102, sass/partials/_appderma.scss */
 #footer-menu ul.tabs {
   background-color: transparent !important;
   padding: 0;
   border-top: 1px solid rgba(161, 161, 161, 0.25) !important;
 }
-/* line 102, sass/partials/_appderma.scss */
+/* line 106, sass/partials/_appderma.scss */
 #footer-menu ul.tabs li {
   width: 34%;
   padding-top: 5px !important;
   margin: 0 !important;
   border-top: 1px solid rgba(255, 255, 255, 0.5) !important;
 }
-/* line 108, sass/partials/_appderma.scss */
+/* line 112, sass/partials/_appderma.scss */
 #footer-menu ul.tabs li a i.icon {
   color: rgba(255, 255, 255, 0.75) !important;
 }
-/* line 111, sass/partials/_appderma.scss */
+/* line 115, sass/partials/_appderma.scss */
 #footer-menu ul.tabs .menu-item-46 {
   background: #8c9954 !important;
 }
-/* line 114, sass/partials/_appderma.scss */
+/* line 118, sass/partials/_appderma.scss */
 #footer-menu ul.tabs .menu-item-47 {
   background: #acbc69 !important;
 }
-/* line 117, sass/partials/_appderma.scss */
+/* line 121, sass/partials/_appderma.scss */
 #footer-menu ul.tabs .menu-item-50 {
   background: #c5d776 !important;
 }
 
-/* line 126, sass/partials/_appderma.scss */
+/* line 130, sass/partials/_appderma.scss */
 .modal-fototipos {
   background-color: #8c9954 !important;
 }
-/* line 128, sass/partials/_appderma.scss */
+/* line 132, sass/partials/_appderma.scss */
 .modal-fototipos .toolbar {
   background-color: #8c9954 !important;
 }
-/* line 130, sass/partials/_appderma.scss */
+/* line 134, sass/partials/_appderma.scss */
 .modal-fototipos .toolbar h3 {
   color: white;
   text-align: center;
   padding-top: 13px;
 }
-/* line 135, sass/partials/_appderma.scss */
+/* line 139, sass/partials/_appderma.scss */
 .modal-fototipos .toolbar .io-modal-close {
   font-size: 1.5rem !important;
 }
-/* line 141, sass/partials/_appderma.scss */
+/* line 145, sass/partials/_appderma.scss */
 .modal-fototipos .modal-content ul li.fototype-li {
   width: 100%;
   height: 100px;
   padding-left: 15px;
 }
-/* line 145, sass/partials/_appderma.scss */
+/* line 149, sass/partials/_appderma.scss */
 .modal-fototipos .modal-content ul li.fototype-li i.fototype-graph {
   background-image: url("https://www.appderma.com/wp-content/uploads/2017/02/home-app-fototipos.jpg");
   width: 100px;
@@ -930,88 +947,88 @@ section.swiper-container {
   z-index: 999;
   background-size: cover;
 }
-/* line 154, sass/partials/_appderma.scss */
+/* line 158, sass/partials/_appderma.scss */
 .modal-fototipos .modal-content ul li.fototype-li .fototype-skin-two {
   background-position: 500px;
 }
-/* line 157, sass/partials/_appderma.scss */
+/* line 161, sass/partials/_appderma.scss */
 .modal-fototipos .modal-content ul li.fototype-li .fototype-skin-three {
   background-position: 400px;
 }
-/* line 160, sass/partials/_appderma.scss */
+/* line 164, sass/partials/_appderma.scss */
 .modal-fototipos .modal-content ul li.fototype-li .fototype-skin-four {
   background-position: 300px;
 }
-/* line 163, sass/partials/_appderma.scss */
+/* line 167, sass/partials/_appderma.scss */
 .modal-fototipos .modal-content ul li.fototype-li .fototype-skin-five {
   background-position: 200px;
 }
-/* line 166, sass/partials/_appderma.scss */
+/* line 170, sass/partials/_appderma.scss */
 .modal-fototipos .modal-content ul li.fototype-li .fototype-skin-six {
   background-position: 100px;
 }
-/* line 170, sass/partials/_appderma.scss */
+/* line 174, sass/partials/_appderma.scss */
 .modal-fototipos .modal-content ul .fototype-one {
   background-color: #ffeeda;
   color: #040005;
 }
-/* line 171, sass/partials/_appderma.scss */
+/* line 175, sass/partials/_appderma.scss */
 .modal-fototipos .modal-content ul .fototype-two {
   background-color: #ffdfca;
   color: #945d3f;
 }
-/* line 172, sass/partials/_appderma.scss */
+/* line 176, sass/partials/_appderma.scss */
 .modal-fototipos .modal-content ul .fototype-three {
   background-color: #fdcca3;
   color: #c99339;
 }
-/* line 173, sass/partials/_appderma.scss */
+/* line 177, sass/partials/_appderma.scss */
 .modal-fototipos .modal-content ul .fototype-four {
   background-color: #e0ad6b;
   color: #fad6b4;
 }
-/* line 174, sass/partials/_appderma.scss */
+/* line 178, sass/partials/_appderma.scss */
 .modal-fototipos .modal-content ul .fototype-five {
   background-color: #8c563a;
   color: #f3caac;
 }
-/* line 175, sass/partials/_appderma.scss */
+/* line 179, sass/partials/_appderma.scss */
 .modal-fototipos .modal-content ul .fototype-six {
   background-color: #280906;
   color: #f3d8bb;
 }
 
-/* line 184, sass/partials/_appderma.scss */
+/* line 188, sass/partials/_appderma.scss */
 .menu-left ul {
   min-height: inherit;
 }
-/* line 187, sass/partials/_appderma.scss */
+/* line 191, sass/partials/_appderma.scss */
 .menu-left .bar-header {
   background-color: transparent;
   border-bottom: none !important;
   background-image: none;
 }
-/* line 191, sass/partials/_appderma.scss */
+/* line 195, sass/partials/_appderma.scss */
 .menu-left .bar-header .brand-logo {
   width: 100%;
   padding: 10px;
   margin-top: 20px;
   padding-left: 20%;
 }
-/* line 196, sass/partials/_appderma.scss */
+/* line 200, sass/partials/_appderma.scss */
 .menu-left .bar-header .brand-logo img {
   width: 80%;
 }
-/* line 201, sass/partials/_appderma.scss */
+/* line 205, sass/partials/_appderma.scss */
 .menu-left .scroll-content {
   top: 150px !important;
 }
-/* line 204, sass/partials/_appderma.scss */
+/* line 208, sass/partials/_appderma.scss */
 .menu-left .cart-items {
   display: none;
 }
 
-/* line 211, sass/partials/_appderma.scss */
+/* line 215, sass/partials/_appderma.scss */
 .button-store-brands {
   border: 1px solid lightgray;
   border-radius: 4px;
@@ -1020,7 +1037,7 @@ section.swiper-container {
   padding-right: 5px;
 }
 
-/* line 219, sass/partials/_appderma.scss */
+/* line 223, sass/partials/_appderma.scss */
 .button-brand-single {
   background-color: #8c9954;
   color: #fff;
@@ -1028,53 +1045,64 @@ section.swiper-container {
   text-transform: uppercase;
   line-height: 2.6em;
 }
-/* line 226, sass/partials/_appderma.scss */
+/* line 230, sass/partials/_appderma.scss */
 .button-brand-single a {
   color: white;
   text-decoration: none;
   font-weight: 700;
 }
 
-/* line 233, sass/partials/_appderma.scss */
+/* line 237, sass/partials/_appderma.scss */
 .jp-relatedposts {
   display: none !important;
 }
 
-/* line 239, sass/partials/_appderma.scss */
+/* line 243, sass/partials/_appderma.scss */
 .contact-info {
   padding: 0 15px;
 }
-/* line 241, sass/partials/_appderma.scss */
+/* line 245, sass/partials/_appderma.scss */
 .contact-info p {
   text-align: left !important;
 }
-/* line 242, sass/partials/_appderma.scss */
+/* line 246, sass/partials/_appderma.scss */
 .contact-info p a {
   color: #8c9954;
 }
-/* line 245, sass/partials/_appderma.scss */
+/* line 249, sass/partials/_appderma.scss */
 .contact-info p i.icon {
   color: #8c9954;
 }
 
-/* line 254, sass/partials/_appderma.scss */
+/* line 258, sass/partials/_appderma.scss */
 .entry-content .store-hero-img {
   border: 1px solid #a1a1a1;
   height: 270px;
   margin-bottom: 25px;
   box-shadow: 0 0 3px 0px #a1a1a1;
 }
-/* line 261, sass/partials/_appderma.scss */
+/* line 265, sass/partials/_appderma.scss */
 .entry-content p a {
   color: #8c9954;
 }
-/* line 266, sass/partials/_appderma.scss */
+/* line 270, sass/partials/_appderma.scss */
 .entry-content ol li {
   color: #504e4e;
   margin-bottom: 15px;
 }
 
-/* line 272, sass/partials/_appderma.scss */
+/* line 276, sass/partials/_appderma.scss */
 p.wc-points-rewards-product-prize {
   border: 1px solid #8c9954;
+}
+
+/* line 282, sass/partials/_appderma.scss */
+label.error {
+  font-weight: 600;
+  display: block;
+  text-align: center;
+  color: red;
+  border: 1px solid;
+  margin: 5px;
+  padding: 5px;
 }

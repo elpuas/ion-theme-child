@@ -75,13 +75,14 @@ h1.page-title {
     margin: 0 auto;
     background-image: url('../img/home-nav-sprite.png');
     text-indent: -9999px;
+    background-size: cover;
   }
   .ico1 {}
-  .ico2 { background-position: -55px; }
-  .ico3 { background-position: -110px; }
-  .ico4 { background-position: -165px;}
-  .ico5 { background-position: -220px;}
-  .ico6 { background-position: -275px;}
+  .ico2 { background-position: -50px; }
+  .ico3 { background-position: -100px; }
+  .ico4 { background-position: -150px;}
+  .ico5 { background-position: -200px;}
+  .ico6 { background-position: -250px;}
 }
 
 // Slider
@@ -89,6 +90,9 @@ h1.page-title {
 section.swiper-container {
   box-shadow: 0 0 3px 0px $color-lightgray;
   margin-bottom: 25px;
+  .swiper-slide-content {
+    display: none;
+  }
 }
 
 // Footer Navigation
@@ -271,4 +275,16 @@ section.swiper-container {
 }
 p.wc-points-rewards-product-prize {
     border: 1px solid $primary-color;
+}
+
+// Form Error Label
+
+label.error {
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    color: red;
+    border: 1px solid;
+    margin: 5px;
+    padding: 5px;
 }

@@ -174,4 +174,28 @@ function appderma_order_meta_keys( $keys ) {
      return $keys;
 }
 
+//Page Slug Body Class
+			 function add_slug_body_class( $classes ) {
+			 global $post;
+			 if ( isset( $post ) ) {
+			 $classes[] = $post->post_type . '-' . $post->post_name;
+			 }
+			 return $classes;
+			 }
+			 add_filter( 'body_class', 'add_slug_body_class' );
+
+// Hook Facebook Login
+
+add_action( 'woocommerce_before_customer_login_form', 'appderma_fb_login' );
+function appderma_fb_login() {
+	echo do_shortcode("[app-fb-login]");
+}
+
+// Gravity Forms Move Code to Footer
+
+add_filter("gform_init_scripts_footer", "init_scripts");
+function init_scripts() {
+return true;
+}
+
 		 ?>
