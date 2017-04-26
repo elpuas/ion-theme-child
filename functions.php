@@ -42,7 +42,7 @@ function appp_ion_enqueue_styles() {
 
 			// Get attribuets
 					extract( shortcode_atts( array(
-					'per_page' 		=> '12',
+					'per_page' 		=> '50',
 					'columns' 		=> '4',
 					'orderby'   	=> 'title',
 					'order'     	=> 'desc',
@@ -109,72 +109,8 @@ function appderma_override_checkout_fields( $fields ) {
 
      return $fields;
 }
-
-// Add a Custom field Billing ID
-
-add_filter( 'woocommerce_checkout_fields' , 'appderma_add_checkout_fields' );
-
-function appderma_add_checkout_fields( $fields ) {
-     $fields['billing']['billing_id'] = array(
-        'label'     => __('DNI/RUC', 'woocommerce'),
-        'placeholder'   => _x('DNI/RUC', 'placeholder', 'woocommerce'),
-        'required'  => true,
-        'class'     => array('form-row-wide'),
-        'clear'     => true
-     );
-
-     return $fields;
-}
-
-/**
- * Display field value on the order edit page
- */
-
-add_action( 'woocommerce_admin_order_data_after_shipping_address', 'appderma_checkout_field_display_admin_order_meta', 10, 1 );
-
-function appderma_checkout_field_display_admin_order_meta($order){
-    echo '<p>'.__('DNI o RUC').': ' . get_post_meta( $order->id, '_billing_id', true ) . '</p>';
-}
-
-/**
- * Update the order meta with field value
- */
-add_action( 'woocommerce_checkout_update_order_meta', 'appderma_checkout_field_update_order_meta' );
-
-function appderma_checkout_field_update_order_meta( $order_id ) {
-    if ( ! empty( $_POST['billing_id'] ) ) {
-        update_post_meta( $order_id, 'DNI/RUC', sanitize_text_field( $_POST['billing_id'] ) );
-    }
-}
-
-/**
- * Display field value on the order edit page
- */
-add_action( 'woocommerce_admin_order_data_after_billing_address', 'appderma_dni_checkout_field_display_admin_order_meta', 10, 1 );
-
-function appderma_dni_checkout_field_display_admin_order_meta($order){
-    echo '<p><strong>'.__('DNI/RUC').':</strong> ' . get_post_meta( $order->id, 'DNI/RUC', true ) . '</p>';
-}
-
-// Change Order Comments
-add_filter( 'woocommerce_checkout_fields' , 'appderma_order_comments_checkout_fields' );
-
-// Our hooked in function - $fields is passed via the filter!
-function appderma_order_comments_checkout_fields( $fields ) {
-     $fields['order']['order_comments']['placeholder'] = 'A que Hora te gustaria la entrega';
-     return $fields;
-}
-
-// Add Custom Field to Order Email
-
-add_filter('woocommerce_email_order_meta_keys', 'appderma_order_meta_keys');
-
-function appderma_order_meta_keys( $keys ) {
-     $keys[] = 'DNI/RUC'; // This will look for a custom field called 'DNI/RUC' and add it to emails
-     return $keys;
-}
-
 //Page Slug Body Class
+
 			 function add_slug_body_class( $classes ) {
 			 global $post;
 			 if ( isset( $post ) ) {

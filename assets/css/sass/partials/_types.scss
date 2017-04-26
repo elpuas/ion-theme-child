@@ -92,11 +92,16 @@ form.wpv-filter-form p {
      }
      a {
        text-decoration: none;
-       color: $primary-color;
-       font-size: 16px;
-     }
-     p {
        color: $color-darkgray;
+       font-size: 1rem;
+     }
+     p.price {
+       color: $primary-color;
+       del {
+         color: rgba(140, 153, 84, 0.44);
+         font-size: 0.5rem !important;
+         padding: 0;
+       }
     }
     .star-rating {
       margin-right: 23px;

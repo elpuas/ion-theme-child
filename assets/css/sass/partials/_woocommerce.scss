@@ -61,8 +61,11 @@ body.woocommerce {
         background: transparent !important;
         padding-left: 0;
         padding-right: 0;
-        h3 {
-          font-size: 1rem !important;
+        h2.woocommerce-loop-product__title {
+          background: transparent;
+          color:$color-darkgray !important;
+          font-size: 1.1rem;
+          padding: 0;
         }
       }
     }
@@ -548,7 +551,7 @@ input#place_order {
 }
 
 .woocommerce-info.wc_points_redeem_earn_points {
-   display: none;
+    display: none;
 }
 
 .woocommerce table.shop_table th, .woocommerce-page table.shop_table th {
@@ -563,4 +566,23 @@ table.shop_table.my_account_points_rewards.my_account_orders tbody tr td, table.
     width: 33%;
     float: left;
     text-align: center;
+}
+
+.woocommerce .product-meta-wrap span.price del {
+    color: rgba(140, 153, 84, 0.44);
+    font-size: 0.5rem !important;
+    padding: 0;
+}
+
+.product-meta-wrap {
+    line-height: 1em;
+}
+
+.product-meta-wrap {
+  h2.woocommerce-loop-product__title {
+    background: transparent !important;
+    color:$color-darkgray !important;
+    font-size: 1rem !important;
+    padding: 0 !important;
+  }
 }
